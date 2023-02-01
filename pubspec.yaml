@@ -1,20 +1,19 @@
 name: ficonsax
 description: ficonsax is Iconsax which is 6000 icons in different styles or 1000 icons for each style separately available as a dart/flutter package.
 version: 0.0.1
-homepage:
+repository: https://github.com/Mastersam07/fIconsax
+homepage: https://github.com/Mastersam07/fIconsax
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^1.0.0
+  lints: ^1.0.0
+  test: ^1.16.0
 
 # The following section is specific to Flutter.
 flutter:
