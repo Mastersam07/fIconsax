@@ -43,7 +43,7 @@ class MyAwesomeWidget extends StatelessWidget {
 View the flutter app in the `example` directory
 
 ## Screenshot
-<img src="https://github.com/Mastersam07/ficonsax/raw/dev/screenshots/1.png" width="400">
+<img src="https://github.com/Mastersam07/ficonsax/raw/dev/ss/1.png" width="400">
 
 ## 🐛 Bugs/Requests
 
