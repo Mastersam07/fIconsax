@@ -21,7 +21,21 @@ ficonsax:
 
 ```dart
 import 'package:ficonsax/ficonsax.dart';
-// TODO:
+
+class MyAwesomeWidget extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return Card(
+        child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+                Icon(IconsaxBold.notification, size: 50.0),
+                const SizedBox(height: 30.0),
+                Text('Bold Notification Icon', textAlign: TextAlign.center),
+            ],
+        ),
+    );
+  }
+}
 ```
 
 ## Example
@@ -29,7 +43,7 @@ import 'package:ficonsax/ficonsax.dart';
 View the flutter app in the `example` directory
 
 ## Screenshot
-<img src="https://github.com/Mastersam07/ficonsax/raw/master/screenshots/1.png" width="400">
+<img src="https://github.com/Mastersam07/ficonsax/raw/dev/screenshots/1.png" width="400">
 
 ## 🐛 Bugs/Requests
 
