@@ -1,5 +1,9 @@
 ## 0.0.2
 
+* Add iconsax bulk variation.
+
+## 0.0.2
+
 * Add iconsax outline variation.
 
 ## 0.0.1
