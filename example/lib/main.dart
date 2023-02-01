@@ -32,12 +32,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<IconModel> sampleIcons = [
-    IconModel(icon: IconsaxBold.activity, name: "Activity icon"),
-    IconModel(icon: IconsaxBold.add, name: "Add icon"),
-    IconModel(icon: IconsaxBold.notification, name: "Notification icon"),
-    IconModel(icon: IconsaxBold.home, name: "Home icon"),
-    IconModel(icon: IconsaxBold.people, name: "People icon"),
-    IconModel(icon: IconsaxBold.card, name: "Card icon"),
+    IconModel(icon: IconsaxBold.add, name: "Bold Add icon"),
+    IconModel(icon: IconsaxOutline.add, name: "Outline Add icon"),
+    IconModel(icon: IconsaxBold.notification, name: "Bold Notification icon"),
+    IconModel(
+        icon: IconsaxOutline.notification, name: "Outline Notification icon"),
+    IconModel(icon: IconsaxBold.home, name: "Bold Home icon"),
+    IconModel(icon: IconsaxOutline.home, name: "Outline Home icon"),
   ];
   @override
   Widget build(BuildContext context) {

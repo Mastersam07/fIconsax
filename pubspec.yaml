@@ -21,3 +21,6 @@ flutter:
    - family: IconsaxBold
      fonts:
       - asset: fonts/IconsaxBold.ttf
+   - family: IconsaxOutline
+     fonts:
+      - asset: fonts/IconsaxOutline.ttf
