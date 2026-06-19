@@ -2,910 +2,1797 @@
 
 import 'package:flutter/widgets.dart';
 
-import 'iconsax_data.dart';
-
 class IconsaxBulk {
   IconsaxBulk._();
 
   static const String _fontFamily = 'IconsaxBulk';
 
-  static const IconData d_cube_scan = IconsaxData(0xe900, _fontFamily);
-  static const IconData d_rotate = IconsaxData(0xe905, _fontFamily);
-  static const IconData d_square = IconsaxData(0xe909, _fontFamily);
-  static const IconData dcube = IconsaxData(0xe90d, _fontFamily);
-  static const IconData square = IconsaxData(0xe910, _fontFamily);
-  static const IconData support = IconsaxData(0xe913, _fontFamily);
-  static const IconData activity = IconsaxData(0xe916, _fontFamily);
-  static const IconData add_circle = IconsaxData(0xe918, _fontFamily);
-  static const IconData add_square = IconsaxData(0xe91a, _fontFamily);
-  static const IconData add = IconsaxData(0xe91c, _fontFamily);
-  static const IconData additem = IconsaxData(0xe91e, _fontFamily);
-  static const IconData airdrop = IconsaxData(0xe921, _fontFamily);
-  static const IconData airplane_square = IconsaxData(0xe925, _fontFamily);
-  static const IconData airplane = IconsaxData(0xe927, _fontFamily);
-  static const IconData airpod = IconsaxData(0xe929, _fontFamily);
-  static const IconData airpods = IconsaxData(0xe92b, _fontFamily);
-  static const IconData alarm = IconsaxData(0xe931, _fontFamily);
-  static const IconData align_bottom = IconsaxData(0xe936, _fontFamily);
-  static const IconData align_horizontally = IconsaxData(0xe939, _fontFamily);
-  static const IconData align_left = IconsaxData(0xe93e, _fontFamily);
-  static const IconData align_right = IconsaxData(0xe941, _fontFamily);
-  static const IconData align_vertically = IconsaxData(0xe944, _fontFamily);
-  static const IconData aquarius = IconsaxData(0xe949, _fontFamily);
-  static const IconData archive_1 = IconsaxData(0xe94b, _fontFamily);
-  static const IconData archive_2 = IconsaxData(0xe94d, _fontFamily);
-  static const IconData archive_add = IconsaxData(0xe94f, _fontFamily);
-  static const IconData archive_book = IconsaxData(0xe951, _fontFamily);
-  static const IconData archive_minus = IconsaxData(0xe955, _fontFamily);
-  static const IconData archive_slash = IconsaxData(0xe957, _fontFamily);
-  static const IconData archive_tick = IconsaxData(0xe95a, _fontFamily);
-  static const IconData archive = IconsaxData(0xe95c, _fontFamily);
-  static const IconData arrange_circle_2 = IconsaxData(0xe95f, _fontFamily);
-  static const IconData arrange_circle = IconsaxData(0xe962, _fontFamily);
-  static const IconData arrange_square_2 = IconsaxData(0xe965, _fontFamily);
-  static const IconData arrange_square = IconsaxData(0xe968, _fontFamily);
-  static const IconData arrow_2 = IconsaxData(0xe96b, _fontFamily);
-  static const IconData arrow_3 = IconsaxData(0xe96d, _fontFamily);
-  static const IconData arrow_bottom = IconsaxData(0xe96f, _fontFamily);
-  static const IconData arrow_circle_down = IconsaxData(0xe971, _fontFamily);
-  static const IconData arrow_circle_left = IconsaxData(0xe973, _fontFamily);
-  static const IconData arrow_circle_right = IconsaxData(0xe975, _fontFamily);
-  static const IconData arrow_circle_up = IconsaxData(0xe977, _fontFamily);
-  static const IconData arrow_down_1 = IconsaxData(0xe979, _fontFamily);
-  static const IconData arrow_down_2 = IconsaxData(0xe97b, _fontFamily);
-  static const IconData arrow_down = IconsaxData(0xe97d, _fontFamily);
-  static const IconData arrow_left_1 = IconsaxData(0xe97f, _fontFamily);
-  static const IconData arrow_left_2 = IconsaxData(0xe981, _fontFamily);
-  static const IconData arrow_left_3 = IconsaxData(0xe983, _fontFamily);
-  static const IconData arrow_left = IconsaxData(0xe985, _fontFamily);
-  static const IconData arrow_right_1 = IconsaxData(0xe987, _fontFamily);
-  static const IconData arrow_right_2 = IconsaxData(0xe989, _fontFamily);
-  static const IconData arrow_right_3 = IconsaxData(0xe98b, _fontFamily);
-  static const IconData arrow_right = IconsaxData(0xe98d, _fontFamily);
-  static const IconData arrow_square_down = IconsaxData(0xe98f, _fontFamily);
-  static const IconData arrow_square_left = IconsaxData(0xe991, _fontFamily);
-  static const IconData arrow_square_right = IconsaxData(0xe993, _fontFamily);
-  static const IconData arrow_square_up = IconsaxData(0xe995, _fontFamily);
-  static const IconData arrow_square = IconsaxData(0xe997, _fontFamily);
+  static const IconData d_cube_scan =
+      IconData(0xe900, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData d_rotate =
+      IconData(0xe905, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData d_square =
+      IconData(0xe909, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData dcube =
+      IconData(0xe90d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData square =
+      IconData(0xe910, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData support =
+      IconData(0xe913, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData activity =
+      IconData(0xe916, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData add_circle =
+      IconData(0xe918, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData add_square =
+      IconData(0xe91a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData add =
+      IconData(0xe91c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData additem =
+      IconData(0xe91e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData airdrop =
+      IconData(0xe921, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData airplane_square =
+      IconData(0xe925, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData airplane =
+      IconData(0xe927, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData airpod =
+      IconData(0xe929, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData airpods =
+      IconData(0xe92b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData alarm =
+      IconData(0xe931, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData align_bottom =
+      IconData(0xe936, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData align_horizontally =
+      IconData(0xe939, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData align_left =
+      IconData(0xe93e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData align_right =
+      IconData(0xe941, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData align_vertically =
+      IconData(0xe944, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData aquarius =
+      IconData(0xe949, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData archive_1 =
+      IconData(0xe94b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData archive_2 =
+      IconData(0xe94d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData archive_add =
+      IconData(0xe94f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData archive_book =
+      IconData(0xe951, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData archive_minus =
+      IconData(0xe955, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData archive_slash =
+      IconData(0xe957, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData archive_tick =
+      IconData(0xe95a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData archive =
+      IconData(0xe95c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrange_circle_2 =
+      IconData(0xe95f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrange_circle =
+      IconData(0xe962, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrange_square_2 =
+      IconData(0xe965, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrange_square =
+      IconData(0xe968, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_2 =
+      IconData(0xe96b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_3 =
+      IconData(0xe96d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_bottom =
+      IconData(0xe96f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_circle_down =
+      IconData(0xe971, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_circle_left =
+      IconData(0xe973, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_circle_right =
+      IconData(0xe975, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_circle_up =
+      IconData(0xe977, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_down_1 =
+      IconData(0xe979, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_down_2 =
+      IconData(0xe97b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_down =
+      IconData(0xe97d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_left_1 =
+      IconData(0xe97f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_left_2 =
+      IconData(0xe981, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_left_3 =
+      IconData(0xe983, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_left =
+      IconData(0xe985, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_right_1 =
+      IconData(0xe987, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_right_2 =
+      IconData(0xe989, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_right_3 =
+      IconData(0xe98b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_right =
+      IconData(0xe98d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_square_down =
+      IconData(0xe98f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_square_left =
+      IconData(0xe991, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_square_right =
+      IconData(0xe993, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_square_up =
+      IconData(0xe995, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_square =
+      IconData(0xe997, fontFamily: _fontFamily, fontPackage: 'ficonsax');
   static const IconData arrow_swap_horizontal =
-      IconsaxData(0xe999, _fontFamily);
-  static const IconData arrow_swap = IconsaxData(0xe99c, _fontFamily);
-  static const IconData arrow_up_1 = IconsaxData(0xe99f, _fontFamily);
-  static const IconData arrow_up_2 = IconsaxData(0xe9a1, _fontFamily);
-  static const IconData arrow_up_3 = IconsaxData(0xe9a3, _fontFamily);
-  static const IconData arrow_up = IconsaxData(0xe9a5, _fontFamily);
-  static const IconData arrow = IconsaxData(0xe9a7, _fontFamily);
-  static const IconData attach_circle = IconsaxData(0xe9ad, _fontFamily);
-  static const IconData attach_square = IconsaxData(0xe9af, _fontFamily);
-  static const IconData audio_square = IconsaxData(0xe9b1, _fontFamily);
-  static const IconData autobrightness = IconsaxData(0xe9b3, _fontFamily);
-  static const IconData award = IconsaxData(0xe9b6, _fontFamily);
-  static const IconData back_square = IconsaxData(0xe9b9, _fontFamily);
-  static const IconData backward_5_seconds = IconsaxData(0xe9bb, _fontFamily);
-  static const IconData backward_10_seconds = IconsaxData(0xe9bd, _fontFamily);
-  static const IconData backward_15_seconds = IconsaxData(0xe9c0, _fontFamily);
-  static const IconData backward_item = IconsaxData(0xe9c3, _fontFamily);
-  static const IconData backward = IconsaxData(0xe9c6, _fontFamily);
-  static const IconData bag_2 = IconsaxData(0xe9c8, _fontFamily);
-  static const IconData bag_cross_1 = IconsaxData(0xe9ca, _fontFamily);
-  static const IconData bag_cross = IconsaxData(0xe9ce, _fontFamily);
-  static const IconData bag_happy = IconsaxData(0xe9d0, _fontFamily);
-  static const IconData bag_tick_2 = IconsaxData(0xe9d2, _fontFamily);
-  static const IconData bag_tick = IconsaxData(0xe9d6, _fontFamily);
-  static const IconData bag_timer = IconsaxData(0xe9d8, _fontFamily);
-  static const IconData bag = IconsaxData(0xe9dc, _fontFamily);
-  static const IconData barcode = IconsaxData(0xe9e5, _fontFamily);
-  static const IconData battery_3full = IconsaxData(0xe9ed, _fontFamily);
-  static const IconData battery_charging = IconsaxData(0xe9f1, _fontFamily);
-  static const IconData battery_disable = IconsaxData(0xe9f4, _fontFamily);
-  static const IconData battery_empty_1 = IconsaxData(0xe9f8, _fontFamily);
-  static const IconData battery_empty = IconsaxData(0xe9fb, _fontFamily);
-  static const IconData battery_full = IconsaxData(0xe9fd, _fontFamily);
-  static const IconData bezier = IconsaxData(0xea02, _fontFamily);
-  static const IconData bill = IconsaxData(0xea09, _fontFamily);
-  static const IconData bitcoin_card = IconsaxData(0xea0d, _fontFamily);
-  static const IconData bitcoin_convert = IconsaxData(0xea10, _fontFamily);
-  static const IconData bitcoin_refresh = IconsaxData(0xea15, _fontFamily);
-  static const IconData blend_2 = IconsaxData(0xea18, _fontFamily);
-  static const IconData blend = IconsaxData(0xea1d, _fontFamily);
-  static const IconData bluetooth_2 = IconsaxData(0xea1f, _fontFamily);
-  static const IconData bluetooth_circle = IconsaxData(0xea23, _fontFamily);
-  static const IconData bluetooth_rectangle = IconsaxData(0xea25, _fontFamily);
-  static const IconData bluetooth = IconsaxData(0xea27, _fontFamily);
-  static const IconData blur = IconsaxData(0xea29, _fontFamily);
-  static const IconData book_1 = IconsaxData(0xea2b, _fontFamily);
-  static const IconData book_saved = IconsaxData(0xea2f, _fontFamily);
-  static const IconData book_square = IconsaxData(0xea32, _fontFamily);
-  static const IconData book = IconsaxData(0xea35, _fontFamily);
-  static const IconData bookmark_2 = IconsaxData(0xea39, _fontFamily);
-  static const IconData bookmark = IconsaxData(0xea3b, _fontFamily);
-  static const IconData box_1 = IconsaxData(0xea3d, _fontFamily);
-  static const IconData box_2 = IconsaxData(0xea40, _fontFamily);
-  static const IconData box_add = IconsaxData(0xea47, _fontFamily);
-  static const IconData box_remove = IconsaxData(0xea4b, _fontFamily);
-  static const IconData box_search = IconsaxData(0xea4f, _fontFamily);
-  static const IconData box_tick = IconsaxData(0xea53, _fontFamily);
-  static const IconData box_time = IconsaxData(0xea57, _fontFamily);
-  static const IconData box = IconsaxData(0xea5b, _fontFamily);
-  static const IconData briefcase = IconsaxData(0xea60, _fontFamily);
-  static const IconData brifecase_cross = IconsaxData(0xea62, _fontFamily);
-  static const IconData brifecase_tick = IconsaxData(0xea65, _fontFamily);
-  static const IconData brifecase_timer = IconsaxData(0xea68, _fontFamily);
-  static const IconData broom = IconsaxData(0xea6b, _fontFamily);
-  static const IconData brush_1 = IconsaxData(0xea71, _fontFamily);
-  static const IconData brush_2 = IconsaxData(0xea73, _fontFamily);
-  static const IconData brush_3 = IconsaxData(0xea77, _fontFamily);
-  static const IconData brush_4 = IconsaxData(0xea7a, _fontFamily);
-  static const IconData brush = IconsaxData(0xea7d, _fontFamily);
-  static const IconData bubble = IconsaxData(0xea81, _fontFamily);
-  static const IconData bucket_circle = IconsaxData(0xea84, _fontFamily);
-  static const IconData bucket_square = IconsaxData(0xea87, _fontFamily);
-  static const IconData bucket = IconsaxData(0xea8a, _fontFamily);
-  static const IconData building_3 = IconsaxData(0xea8e, _fontFamily);
-  static const IconData building_4 = IconsaxData(0xea93, _fontFamily);
-  static const IconData building = IconsaxData(0xea98, _fontFamily);
-  static const IconData buildings_2 = IconsaxData(0xea9e, _fontFamily);
-  static const IconData buildings = IconsaxData(0xeaa4, _fontFamily);
-  static const IconData buliding = IconsaxData(0xeaaa, _fontFamily);
-  static const IconData bus = IconsaxData(0xeab2, _fontFamily);
-  static const IconData buy_crypto = IconsaxData(0xeab7, _fontFamily);
-  static const IconData cake = IconsaxData(0xeaba, _fontFamily);
-  static const IconData calculator = IconsaxData(0xeac0, _fontFamily);
-  static const IconData calendar_1 = IconsaxData(0xeac8, _fontFamily);
-  static const IconData calendar_2 = IconsaxData(0xeacd, _fontFamily);
-  static const IconData calendar_add = IconsaxData(0xead2, _fontFamily);
-  static const IconData calendar_circle = IconsaxData(0xead8, _fontFamily);
-  static const IconData calendar_edit = IconsaxData(0xeadb, _fontFamily);
-  static const IconData calendar_remove = IconsaxData(0xeade, _fontFamily);
-  static const IconData calendar_search = IconsaxData(0xeae4, _fontFamily);
-  static const IconData calendar_tick = IconsaxData(0xeae7, _fontFamily);
-  static const IconData calendar = IconsaxData(0xeaed, _fontFamily);
-  static const IconData call_add = IconsaxData(0xeaf5, _fontFamily);
-  static const IconData call_calling = IconsaxData(0xeaf8, _fontFamily);
-  static const IconData call_incoming = IconsaxData(0xeafc, _fontFamily);
-  static const IconData call_minus = IconsaxData(0xeaff, _fontFamily);
-  static const IconData call_outgoing = IconsaxData(0xeb02, _fontFamily);
-  static const IconData call_received = IconsaxData(0xeb05, _fontFamily);
-  static const IconData call_remove = IconsaxData(0xeb08, _fontFamily);
-  static const IconData call_slash = IconsaxData(0xeb0b, _fontFamily);
-  static const IconData call = IconsaxData(0xeb0e, _fontFamily);
-  static const IconData camera_slash = IconsaxData(0xeb10, _fontFamily);
-  static const IconData camera = IconsaxData(0xeb16, _fontFamily);
-  static const IconData candle_2 = IconsaxData(0xeb19, _fontFamily);
-  static const IconData candle = IconsaxData(0xeb1b, _fontFamily);
-  static const IconData car = IconsaxData(0xeb1d, _fontFamily);
-  static const IconData card_add = IconsaxData(0xeb21, _fontFamily);
-  static const IconData card_coin = IconsaxData(0xeb24, _fontFamily);
-  static const IconData card_edit = IconsaxData(0xeb2a, _fontFamily);
-  static const IconData card_pos = IconsaxData(0xeb2d, _fontFamily);
-  static const IconData card_receive = IconsaxData(0xeb32, _fontFamily);
-  static const IconData card_remove_1 = IconsaxData(0xeb35, _fontFamily);
-  static const IconData card_remove = IconsaxData(0xeb38, _fontFamily);
-  static const IconData card_send = IconsaxData(0xeb3c, _fontFamily);
-  static const IconData card_slash = IconsaxData(0xeb3f, _fontFamily);
-  static const IconData card_tick_1 = IconsaxData(0xeb46, _fontFamily);
-  static const IconData card_tick = IconsaxData(0xeb49, _fontFamily);
-  static const IconData card = IconsaxData(0xeb4d, _fontFamily);
-  static const IconData cards = IconsaxData(0xeb51, _fontFamily);
-  static const IconData category_2 = IconsaxData(0xeb56, _fontFamily);
-  static const IconData category = IconsaxData(0xeb5a, _fontFamily);
-  static const IconData cd = IconsaxData(0xeb5e, _fontFamily);
-  static const IconData chart_1 = IconsaxData(0xeb60, _fontFamily);
-  static const IconData chart_2 = IconsaxData(0xeb64, _fontFamily);
-  static const IconData chart_3 = IconsaxData(0xeb67, _fontFamily);
-  static const IconData chart_21 = IconsaxData(0xeb6a, _fontFamily);
-  static const IconData chart_square = IconsaxData(0xeb6e, _fontFamily);
-  static const IconData chart_success = IconsaxData(0xeb72, _fontFamily);
-  static const IconData chart = IconsaxData(0xeb77, _fontFamily);
-  static const IconData check = IconsaxData(0xeb7b, _fontFamily);
-  static const IconData chrome = IconsaxData(0xeb7f, _fontFamily);
-  static const IconData clipboard_close = IconsaxData(0xeb81, _fontFamily);
-  static const IconData clipboard_export = IconsaxData(0xeb84, _fontFamily);
-  static const IconData clipboard_import = IconsaxData(0xeb87, _fontFamily);
-  static const IconData clipboard_text = IconsaxData(0xeb8a, _fontFamily);
-  static const IconData clipboard_tick = IconsaxData(0xeb8e, _fontFamily);
-  static const IconData clipboard = IconsaxData(0xeb91, _fontFamily);
-  static const IconData clock_1 = IconsaxData(0xeb94, _fontFamily);
-  static const IconData clock = IconsaxData(0xeb96, _fontFamily);
-  static const IconData close_circle = IconsaxData(0xeb9a, _fontFamily);
-  static const IconData close_square = IconsaxData(0xeb9c, _fontFamily);
-  static const IconData cloud_add = IconsaxData(0xeb9e, _fontFamily);
-  static const IconData cloud_change = IconsaxData(0xeba0, _fontFamily);
-  static const IconData cloud_connection = IconsaxData(0xeba3, _fontFamily);
-  static const IconData cloud_cross = IconsaxData(0xeba5, _fontFamily);
-  static const IconData cloud_drizzle = IconsaxData(0xeba7, _fontFamily);
-  static const IconData cloud_fog = IconsaxData(0xeba9, _fontFamily);
-  static const IconData cloud_lightning = IconsaxData(0xebad, _fontFamily);
-  static const IconData cloud_minus = IconsaxData(0xebaf, _fontFamily);
-  static const IconData cloud_notif = IconsaxData(0xebb1, _fontFamily);
-  static const IconData cloud_plus = IconsaxData(0xebb3, _fontFamily);
-  static const IconData cloud_remove = IconsaxData(0xebb5, _fontFamily);
-  static const IconData cloud_snow = IconsaxData(0xebb7, _fontFamily);
-  static const IconData cloud_sunny = IconsaxData(0xebb9, _fontFamily);
-  static const IconData cloud = IconsaxData(0xebbb, _fontFamily);
-  static const IconData code_1 = IconsaxData(0xebbd, _fontFamily);
-  static const IconData code_circle = IconsaxData(0xebc1, _fontFamily);
-  static const IconData code = IconsaxData(0xebc5, _fontFamily);
-  static const IconData coffee = IconsaxData(0xebc8, _fontFamily);
-  static const IconData coin_1 = IconsaxData(0xebce, _fontFamily);
-  static const IconData coin = IconsaxData(0xebd1, _fontFamily);
-  static const IconData color_swatch = IconsaxData(0xebd4, _fontFamily);
-  static const IconData colorfilter = IconsaxData(0xebd7, _fontFamily);
-  static const IconData colors_square = IconsaxData(0xebda, _fontFamily);
-  static const IconData command_square = IconsaxData(0xebde, _fontFamily);
-  static const IconData command = IconsaxData(0xebe4, _fontFamily);
-  static const IconData component = IconsaxData(0xebe9, _fontFamily);
-  static const IconData computing = IconsaxData(0xebea, _fontFamily);
-  static const IconData convert_3d_cube = IconsaxData(0xebee, _fontFamily);
-  static const IconData convert_card = IconsaxData(0xebf6, _fontFamily);
-  static const IconData convert = IconsaxData(0xebfc, _fontFamily);
-  static const IconData convertshape_2 = IconsaxData(0xebff, _fontFamily);
-  static const IconData convertshape = IconsaxData(0xec03, _fontFamily);
-  static const IconData copy_success = IconsaxData(0xec07, _fontFamily);
-  static const IconData copy = IconsaxData(0xec09, _fontFamily);
-  static const IconData copyright = IconsaxData(0xec0b, _fontFamily);
-  static const IconData courthouse = IconsaxData(0xec0d, _fontFamily);
-  static const IconData cpu_charge = IconsaxData(0xec0f, _fontFamily);
-  static const IconData cpu_setting = IconsaxData(0xec1d, _fontFamily);
-  static const IconData cpu = IconsaxData(0xec29, _fontFamily);
-  static const IconData creative_commons = IconsaxData(0xec37, _fontFamily);
-  static const IconData crop = IconsaxData(0xec3a, _fontFamily);
-  static const IconData crown_1 = IconsaxData(0xec3d, _fontFamily);
-  static const IconData crown = IconsaxData(0xec3f, _fontFamily);
-  static const IconData cup = IconsaxData(0xec42, _fontFamily);
-  static const IconData danger = IconsaxData(0xec47, _fontFamily);
-  static const IconData data_2 = IconsaxData(0xec4a, _fontFamily);
-  static const IconData data = IconsaxData(0xec4f, _fontFamily);
-  static const IconData designtools = IconsaxData(0xec54, _fontFamily);
-  static const IconData device_message = IconsaxData(0xec59, _fontFamily);
-  static const IconData devices_1 = IconsaxData(0xec5f, _fontFamily);
-  static const IconData devices = IconsaxData(0xec67, _fontFamily);
-  static const IconData diagram = IconsaxData(0xec6b, _fontFamily);
-  static const IconData diamonds = IconsaxData(0xec6d, _fontFamily);
-  static const IconData direct_down = IconsaxData(0xec6f, _fontFamily);
-  static const IconData direct_inbox = IconsaxData(0xec71, _fontFamily);
-  static const IconData direct_left = IconsaxData(0xec74, _fontFamily);
-  static const IconData direct_normal = IconsaxData(0xec76, _fontFamily);
-  static const IconData direct_notification = IconsaxData(0xec78, _fontFamily);
-  static const IconData direct_right = IconsaxData(0xec7b, _fontFamily);
-  static const IconData direct_send = IconsaxData(0xec7d, _fontFamily);
-  static const IconData direct_up = IconsaxData(0xec80, _fontFamily);
-  static const IconData direct = IconsaxData(0xec82, _fontFamily);
-  static const IconData directbox_default = IconsaxData(0xec86, _fontFamily);
-  static const IconData directbox_notif = IconsaxData(0xec8a, _fontFamily);
-  static const IconData directbox_receive = IconsaxData(0xec8d, _fontFamily);
-  static const IconData directbox_send = IconsaxData(0xec91, _fontFamily);
-  static const IconData discount_circle = IconsaxData(0xec95, _fontFamily);
-  static const IconData discount_shape = IconsaxData(0xec99, _fontFamily);
-  static const IconData discover_1 = IconsaxData(0xec9d, _fontFamily);
-  static const IconData discover = IconsaxData(0xec9f, _fontFamily);
-  static const IconData dislike = IconsaxData(0xeca1, _fontFamily);
-  static const IconData document_1 = IconsaxData(0xeca3, _fontFamily);
-  static const IconData document_cloud = IconsaxData(0xeca6, _fontFamily);
-  static const IconData document_code_2 = IconsaxData(0xeca9, _fontFamily);
-  static const IconData document_code = IconsaxData(0xecac, _fontFamily);
-  static const IconData document_copy = IconsaxData(0xecb0, _fontFamily);
-  static const IconData document_download = IconsaxData(0xecb3, _fontFamily);
-  static const IconData document_favorite = IconsaxData(0xecb6, _fontFamily);
-  static const IconData document_filter = IconsaxData(0xecb9, _fontFamily);
-  static const IconData document_forward = IconsaxData(0xecbd, _fontFamily);
-  static const IconData document_like = IconsaxData(0xecc0, _fontFamily);
-  static const IconData document_normal = IconsaxData(0xecc3, _fontFamily);
-  static const IconData document_previous = IconsaxData(0xecc5, _fontFamily);
-  static const IconData document_sketch = IconsaxData(0xecc8, _fontFamily);
-  static const IconData document_text_1 = IconsaxData(0xeccb, _fontFamily);
-  static const IconData document_text = IconsaxData(0xeccf, _fontFamily);
-  static const IconData document_upload = IconsaxData(0xecd3, _fontFamily);
-  static const IconData document = IconsaxData(0xecd6, _fontFamily);
-  static const IconData dollar_circle = IconsaxData(0xecd8, _fontFamily);
-  static const IconData dollar_square = IconsaxData(0xecda, _fontFamily);
-  static const IconData driver_2 = IconsaxData(0xecdc, _fontFamily);
-  static const IconData driver_refresh = IconsaxData(0xece4, _fontFamily);
-  static const IconData driver = IconsaxData(0xeceb, _fontFamily);
-  static const IconData driving = IconsaxData(0xecf3, _fontFamily);
-  static const IconData drop = IconsaxData(0xecfb, _fontFamily);
-  static const IconData edit_2 = IconsaxData(0xecfd, _fontFamily);
-  static const IconData edit = IconsaxData(0xed00, _fontFamily);
-  static const IconData electricity = IconsaxData(0xed03, _fontFamily);
-  static const IconData element_1 = IconsaxData(0xed07, _fontFamily);
-  static const IconData element_2 = IconsaxData(0xed0a, _fontFamily);
-  static const IconData element_3 = IconsaxData(0xed0d, _fontFamily);
-  static const IconData element_4 = IconsaxData(0xed11, _fontFamily);
-  static const IconData element_equal = IconsaxData(0xed15, _fontFamily);
-  static const IconData element_plus = IconsaxData(0xed1a, _fontFamily);
-  static const IconData emoji_happy = IconsaxData(0xed1e, _fontFamily);
-  static const IconData emoji_normal = IconsaxData(0xed22, _fontFamily);
-  static const IconData emoji_sad = IconsaxData(0xed26, _fontFamily);
-  static const IconData empty_wallet_add = IconsaxData(0xed2a, _fontFamily);
-  static const IconData empty_wallet_change = IconsaxData(0xed2f, _fontFamily);
-  static const IconData empty_wallet_remove = IconsaxData(0xed34, _fontFamily);
-  static const IconData empty_wallet_tick = IconsaxData(0xed39, _fontFamily);
-  static const IconData empty_wallet_time = IconsaxData(0xed3e, _fontFamily);
-  static const IconData empty_wallet = IconsaxData(0xed43, _fontFamily);
-  static const IconData eraser_1 = IconsaxData(0xed47, _fontFamily);
-  static const IconData eraser = IconsaxData(0xed4a, _fontFamily);
-  static const IconData export_1 = IconsaxData(0xed4d, _fontFamily);
-  static const IconData export_2 = IconsaxData(0xed4f, _fontFamily);
-  static const IconData export_3 = IconsaxData(0xed51, _fontFamily);
-  static const IconData export = IconsaxData(0xed53, _fontFamily);
-  static const IconData external_drive = IconsaxData(0xed55, _fontFamily);
-  static const IconData eye_slash = IconsaxData(0xed5a, _fontFamily);
-  static const IconData fatrows = IconsaxData(0xed5f, _fontFamily);
-  static const IconData favorite_chart = IconsaxData(0xed61, _fontFamily);
-  static const IconData filter_add = IconsaxData(0xed64, _fontFamily);
-  static const IconData filter_edit = IconsaxData(0xed66, _fontFamily);
-  static const IconData filter_remove = IconsaxData(0xed68, _fontFamily);
-  static const IconData filter_search = IconsaxData(0xed6a, _fontFamily);
-  static const IconData filter_square = IconsaxData(0xed6c, _fontFamily);
-  static const IconData filter_tick = IconsaxData(0xed6e, _fontFamily);
-  static const IconData filter = IconsaxData(0xed70, _fontFamily);
-  static const IconData finger_cricle = IconsaxData(0xed72, _fontFamily);
-  static const IconData finger_scan = IconsaxData(0xed75, _fontFamily);
-  static const IconData firstline = IconsaxData(0xed7b, _fontFamily);
-  static const IconData flag_2 = IconsaxData(0xed80, _fontFamily);
-  static const IconData flag = IconsaxData(0xed82, _fontFamily);
-  static const IconData flash_1 = IconsaxData(0xed84, _fontFamily);
-  static const IconData flash_circle_1 = IconsaxData(0xed88, _fontFamily);
-  static const IconData flash_circle = IconsaxData(0xed8a, _fontFamily);
-  static const IconData flash_slash = IconsaxData(0xed8c, _fontFamily);
-  static const IconData flash = IconsaxData(0xed8f, _fontFamily);
-  static const IconData folder_2 = IconsaxData(0xed91, _fontFamily);
-  static const IconData folder_add = IconsaxData(0xed93, _fontFamily);
-  static const IconData folder_cloud = IconsaxData(0xed95, _fontFamily);
-  static const IconData folder_connection = IconsaxData(0xed97, _fontFamily);
-  static const IconData folder_cross = IconsaxData(0xed99, _fontFamily);
-  static const IconData folder_favorite = IconsaxData(0xed9b, _fontFamily);
-  static const IconData folder_minus = IconsaxData(0xed9d, _fontFamily);
-  static const IconData folder_open = IconsaxData(0xed9f, _fontFamily);
-  static const IconData folder = IconsaxData(0xeda1, _fontFamily);
-  static const IconData forbidden_2 = IconsaxData(0xeda3, _fontFamily);
-  static const IconData forbidden = IconsaxData(0xeda5, _fontFamily);
-  static const IconData format_circle = IconsaxData(0xeda7, _fontFamily);
-  static const IconData format_square = IconsaxData(0xedac, _fontFamily);
-  static const IconData forward_5_seconds = IconsaxData(0xedb1, _fontFamily);
-  static const IconData forward_10_seconds = IconsaxData(0xedb3, _fontFamily);
-  static const IconData forward_15_seconds = IconsaxData(0xedb6, _fontFamily);
-  static const IconData forward_item = IconsaxData(0xedb9, _fontFamily);
-  static const IconData forward_square = IconsaxData(0xedbc, _fontFamily);
-  static const IconData forward = IconsaxData(0xedbe, _fontFamily);
-  static const IconData frame_1 = IconsaxData(0xedc0, _fontFamily);
-  static const IconData frame_2 = IconsaxData(0xedc3, _fontFamily);
-  static const IconData frame_3 = IconsaxData(0xedc5, _fontFamily);
-  static const IconData frame_4 = IconsaxData(0xedc7, _fontFamily);
-  static const IconData frame = IconsaxData(0xedcb, _fontFamily);
-  static const IconData gallery_add = IconsaxData(0xedd0, _fontFamily);
-  static const IconData gallery_edit = IconsaxData(0xedd4, _fontFamily);
-  static const IconData gallery_favorite = IconsaxData(0xedd8, _fontFamily);
-  static const IconData gallery_import = IconsaxData(0xeddc, _fontFamily);
-  static const IconData gallery_remove = IconsaxData(0xede0, _fontFamily);
-  static const IconData gallery_slash = IconsaxData(0xede4, _fontFamily);
-  static const IconData gallery_tick = IconsaxData(0xede9, _fontFamily);
-  static const IconData gallery = IconsaxData(0xeded, _fontFamily);
-  static const IconData game = IconsaxData(0xedf0, _fontFamily);
-  static const IconData gameboy = IconsaxData(0xedf7, _fontFamily);
-  static const IconData gas_station = IconsaxData(0xedfc, _fontFamily);
-  static const IconData gemini_2 = IconsaxData(0xee01, _fontFamily);
-  static const IconData gemini = IconsaxData(0xee03, _fontFamily);
-  static const IconData ghost = IconsaxData(0xee08, _fontFamily);
-  static const IconData gift = IconsaxData(0xee0b, _fontFamily);
-  static const IconData glass_1 = IconsaxData(0xee10, _fontFamily);
-  static const IconData glass = IconsaxData(0xee12, _fontFamily);
-  static const IconData global_edit = IconsaxData(0xee17, _fontFamily);
-  static const IconData global_refresh = IconsaxData(0xee21, _fontFamily);
-  static const IconData global_search = IconsaxData(0xee2a, _fontFamily);
-  static const IconData global = IconsaxData(0xee33, _fontFamily);
-  static const IconData gps_slash = IconsaxData(0xee3c, _fontFamily);
-  static const IconData gps = IconsaxData(0xee44, _fontFamily);
-  static const IconData grammerly = IconsaxData(0xee4a, _fontFamily);
-  static const IconData graph = IconsaxData(0xee4c, _fontFamily);
-  static const IconData grid_1 = IconsaxData(0xee4e, _fontFamily);
-  static const IconData grid_2 = IconsaxData(0xee57, _fontFamily);
-  static const IconData grid_3 = IconsaxData(0xee5b, _fontFamily);
-  static const IconData grid_4 = IconsaxData(0xee5f, _fontFamily);
-  static const IconData grid_5 = IconsaxData(0xee61, _fontFamily);
-  static const IconData grid_6 = IconsaxData(0xee64, _fontFamily);
-  static const IconData grid_7 = IconsaxData(0xee68, _fontFamily);
-  static const IconData grid_8 = IconsaxData(0xee6b, _fontFamily);
-  static const IconData grid_9 = IconsaxData(0xee71, _fontFamily);
-  static const IconData grid_edit = IconsaxData(0xee73, _fontFamily);
-  static const IconData grid_eraser = IconsaxData(0xee7a, _fontFamily);
-  static const IconData grid_lock = IconsaxData(0xee82, _fontFamily);
-  static const IconData group_1 = IconsaxData(0xee89, _fontFamily);
-  static const IconData group = IconsaxData(0xee91, _fontFamily);
-  static const IconData happyemoji = IconsaxData(0xee96, _fontFamily);
-  static const IconData hashtag_1 = IconsaxData(0xee98, _fontFamily);
-  static const IconData hashtag_down = IconsaxData(0xee9a, _fontFamily);
-  static const IconData hashtag_up = IconsaxData(0xee9d, _fontFamily);
-  static const IconData hashtag = IconsaxData(0xeea0, _fontFamily);
-  static const IconData headphone = IconsaxData(0xeea2, _fontFamily);
-  static const IconData headphones = IconsaxData(0xeea5, _fontFamily);
-  static const IconData health = IconsaxData(0xeead, _fontFamily);
-  static const IconData heart_add = IconsaxData(0xeeb0, _fontFamily);
-  static const IconData heart_circle = IconsaxData(0xeeb2, _fontFamily);
-  static const IconData heart_edit = IconsaxData(0xeeb4, _fontFamily);
-  static const IconData heart_remove = IconsaxData(0xeeb6, _fontFamily);
-  static const IconData heart_search = IconsaxData(0xeeb8, _fontFamily);
-  static const IconData heart_slash = IconsaxData(0xeeba, _fontFamily);
-  static const IconData heart_tick = IconsaxData(0xeebc, _fontFamily);
-  static const IconData heart = IconsaxData(0xeebe, _fontFamily);
-  static const IconData hierarchy_2 = IconsaxData(0xeec0, _fontFamily);
-  static const IconData hierarchy_3 = IconsaxData(0xeec4, _fontFamily);
-  static const IconData hierarchy_square_2 = IconsaxData(0xeec8, _fontFamily);
-  static const IconData hierarchy_square_3 = IconsaxData(0xeeca, _fontFamily);
-  static const IconData hierarchy_square = IconsaxData(0xeecc, _fontFamily);
-  static const IconData hierarchy = IconsaxData(0xeecf, _fontFamily);
-  static const IconData home_1 = IconsaxData(0xeed3, _fontFamily);
-  static const IconData home_2 = IconsaxData(0xeed5, _fontFamily);
-  static const IconData home_hashtag = IconsaxData(0xeed7, _fontFamily);
-  static const IconData home_trend_down = IconsaxData(0xeed9, _fontFamily);
-  static const IconData home_trend_up = IconsaxData(0xeedb, _fontFamily);
-  static const IconData home_wifi = IconsaxData(0xeedd, _fontFamily);
-  static const IconData home = IconsaxData(0xeee1, _fontFamily);
-  static const IconData hospital = IconsaxData(0xeee3, _fontFamily);
-  static const IconData house_2 = IconsaxData(0xeee7, _fontFamily);
-  static const IconData house = IconsaxData(0xeeeb, _fontFamily);
-  static const IconData image = IconsaxData(0xeef1, _fontFamily);
-  static const IconData import_1 = IconsaxData(0xeef3, _fontFamily);
-  static const IconData import_2 = IconsaxData(0xeef5, _fontFamily);
-  static const IconData import = IconsaxData(0xeef7, _fontFamily);
-  static const IconData info_circle = IconsaxData(0xeef9, _fontFamily);
-  static const IconData information = IconsaxData(0xeefc, _fontFamily);
-  static const IconData instagram = IconsaxData(0xeeff, _fontFamily);
-  static const IconData judge = IconsaxData(0xef02, _fontFamily);
-  static const IconData kanban = IconsaxData(0xef06, _fontFamily);
-  static const IconData key_square = IconsaxData(0xef08, _fontFamily);
-  static const IconData key = IconsaxData(0xef0a, _fontFamily);
-  static const IconData keyboard_open = IconsaxData(0xef0c, _fontFamily);
-  static const IconData keyboard = IconsaxData(0xef12, _fontFamily);
-  static const IconData lamp_1 = IconsaxData(0xef17, _fontFamily);
-  static const IconData lamp_charge = IconsaxData(0xef1a, _fontFamily);
-  static const IconData lamp_on = IconsaxData(0xef1d, _fontFamily);
-  static const IconData lamp_slash = IconsaxData(0xef1f, _fontFamily);
-  static const IconData lamp = IconsaxData(0xef23, _fontFamily);
-  static const IconData language_circle = IconsaxData(0xef25, _fontFamily);
-  static const IconData language_square = IconsaxData(0xef27, _fontFamily);
-  static const IconData layer = IconsaxData(0xef29, _fontFamily);
-  static const IconData level = IconsaxData(0xef2c, _fontFamily);
-  static const IconData lifebuoy = IconsaxData(0xef30, _fontFamily);
-  static const IconData like_1 = IconsaxData(0xef32, _fontFamily);
-  static const IconData like_dislike = IconsaxData(0xef34, _fontFamily);
-  static const IconData like_shapes = IconsaxData(0xef38, _fontFamily);
-  static const IconData like_tag = IconsaxData(0xef3a, _fontFamily);
-  static const IconData like = IconsaxData(0xef3c, _fontFamily);
-  static const IconData link_1 = IconsaxData(0xef3e, _fontFamily);
-  static const IconData link_2 = IconsaxData(0xef41, _fontFamily);
-  static const IconData link_21 = IconsaxData(0xef45, _fontFamily);
-  static const IconData link_circle = IconsaxData(0xef49, _fontFamily);
-  static const IconData link_square = IconsaxData(0xef4c, _fontFamily);
-  static const IconData link = IconsaxData(0xef4f, _fontFamily);
-  static const IconData location_add = IconsaxData(0xef51, _fontFamily);
-  static const IconData location_cross = IconsaxData(0xef53, _fontFamily);
-  static const IconData location_minus = IconsaxData(0xef55, _fontFamily);
-  static const IconData location_slash = IconsaxData(0xef57, _fontFamily);
-  static const IconData location_tick = IconsaxData(0xef5a, _fontFamily);
-  static const IconData location = IconsaxData(0xef5c, _fontFamily);
-  static const IconData lock_1 = IconsaxData(0xef5e, _fontFamily);
-  static const IconData lock_circle = IconsaxData(0xef61, _fontFamily);
-  static const IconData lock_slash = IconsaxData(0xef63, _fontFamily);
-  static const IconData lock = IconsaxData(0xef68, _fontFamily);
-  static const IconData login_1 = IconsaxData(0xef6d, _fontFamily);
-  static const IconData login = IconsaxData(0xef6f, _fontFamily);
-  static const IconData logout_1 = IconsaxData(0xef71, _fontFamily);
-  static const IconData logout = IconsaxData(0xef73, _fontFamily);
-  static const IconData lovely = IconsaxData(0xef75, _fontFamily);
-  static const IconData magic_star = IconsaxData(0xef77, _fontFamily);
-  static const IconData magicpen = IconsaxData(0xef79, _fontFamily);
-  static const IconData main_component = IconsaxData(0xef7e, _fontFamily);
-  static const IconData man = IconsaxData(0xef80, _fontFamily);
-  static const IconData map_1 = IconsaxData(0xef82, _fontFamily);
-  static const IconData map = IconsaxData(0xef85, _fontFamily);
-  static const IconData mask_1 = IconsaxData(0xef8a, _fontFamily);
-  static const IconData mask_2 = IconsaxData(0xef8c, _fontFamily);
-  static const IconData mask = IconsaxData(0xef8e, _fontFamily);
-  static const IconData math = IconsaxData(0xef90, _fontFamily);
-  static const IconData maximize_1 = IconsaxData(0xef96, _fontFamily);
-  static const IconData maximize_2 = IconsaxData(0xef99, _fontFamily);
-  static const IconData maximize_3 = IconsaxData(0xef9e, _fontFamily);
-  static const IconData maximize_4 = IconsaxData(0xefa0, _fontFamily);
-  static const IconData maximize_21 = IconsaxData(0xefa3, _fontFamily);
-  static const IconData maximize = IconsaxData(0xefa5, _fontFamily);
-  static const IconData medal_star = IconsaxData(0xefa7, _fontFamily);
-  static const IconData medal = IconsaxData(0xefaa, _fontFamily);
-  static const IconData menu_1 = IconsaxData(0xefac, _fontFamily);
-  static const IconData menu_board = IconsaxData(0xefb0, _fontFamily);
-  static const IconData menu = IconsaxData(0xefb6, _fontFamily);
-  static const IconData message_2 = IconsaxData(0xefba, _fontFamily);
-  static const IconData message_add_1 = IconsaxData(0xefbc, _fontFamily);
-  static const IconData message_add = IconsaxData(0xefbe, _fontFamily);
-  static const IconData message_circle = IconsaxData(0xefc1, _fontFamily);
-  static const IconData message_edit = IconsaxData(0xefc3, _fontFamily);
-  static const IconData message_favorite = IconsaxData(0xefc6, _fontFamily);
-  static const IconData message_minus = IconsaxData(0xefcb, _fontFamily);
-  static const IconData message_notif = IconsaxData(0xefcd, _fontFamily);
-  static const IconData message_programming = IconsaxData(0xefd2, _fontFamily);
-  static const IconData message_question = IconsaxData(0xefd6, _fontFamily);
-  static const IconData message_remove = IconsaxData(0xefd9, _fontFamily);
-  static const IconData message_search = IconsaxData(0xefdc, _fontFamily);
-  static const IconData message_square = IconsaxData(0xefe1, _fontFamily);
-  static const IconData message_text_1 = IconsaxData(0xefe3, _fontFamily);
-  static const IconData message_text = IconsaxData(0xefe6, _fontFamily);
-  static const IconData message_tick = IconsaxData(0xefe9, _fontFamily);
-  static const IconData message_time = IconsaxData(0xefec, _fontFamily);
-  static const IconData message = IconsaxData(0xefef, _fontFamily);
-  static const IconData messages_1 = IconsaxData(0xeff3, _fontFamily);
-  static const IconData messages_2 = IconsaxData(0xeff8, _fontFamily);
-  static const IconData messages_3 = IconsaxData(0xeffa, _fontFamily);
-  static const IconData messages = IconsaxData(0xeffc, _fontFamily);
-  static const IconData microphone_2 = IconsaxData(0xefff, _fontFamily);
-  static const IconData microphone_slash_1 = IconsaxData(0xf001, _fontFamily);
-  static const IconData microphone_slash = IconsaxData(0xf005, _fontFamily);
-  static const IconData microphone = IconsaxData(0xf00a, _fontFamily);
-  static const IconData microscope = IconsaxData(0xf00c, _fontFamily);
-  static const IconData milk = IconsaxData(0xf010, _fontFamily);
-  static const IconData mini_music_sqaure = IconsaxData(0xf013, _fontFamily);
-  static const IconData minus_cirlce = IconsaxData(0xf016, _fontFamily);
-  static const IconData minus_square = IconsaxData(0xf018, _fontFamily);
-  static const IconData minus = IconsaxData(0xf01a, _fontFamily);
-  static const IconData mirror = IconsaxData(0xf01c, _fontFamily);
-  static const IconData mirroring_screen = IconsaxData(0xf01e, _fontFamily);
-  static const IconData mobile_programming = IconsaxData(0xf022, _fontFamily);
-  static const IconData mobile = IconsaxData(0xf025, _fontFamily);
-  static const IconData money_2 = IconsaxData(0xf028, _fontFamily);
-  static const IconData money_3 = IconsaxData(0xf02e, _fontFamily);
-  static const IconData money_4 = IconsaxData(0xf032, _fontFamily);
-  static const IconData money_add = IconsaxData(0xf038, _fontFamily);
-  static const IconData money_change = IconsaxData(0xf03c, _fontFamily);
-  static const IconData money_forbidden = IconsaxData(0xf040, _fontFamily);
-  static const IconData money_recive = IconsaxData(0xf045, _fontFamily);
-  static const IconData money_remove = IconsaxData(0xf04c, _fontFamily);
-  static const IconData money_send = IconsaxData(0xf050, _fontFamily);
-  static const IconData money_tick = IconsaxData(0xf053, _fontFamily);
-  static const IconData money_time = IconsaxData(0xf057, _fontFamily);
-  static const IconData money = IconsaxData(0xf05b, _fontFamily);
-  static const IconData moneys = IconsaxData(0xf05f, _fontFamily);
-  static const IconData monitor_mobbile = IconsaxData(0xf064, _fontFamily);
-  static const IconData monitor_recorder = IconsaxData(0xf067, _fontFamily);
-  static const IconData monitor = IconsaxData(0xf06a, _fontFamily);
-  static const IconData moon = IconsaxData(0xf06c, _fontFamily);
-  static const IconData more_2 = IconsaxData(0xf06e, _fontFamily);
-  static const IconData more_circle = IconsaxData(0xf072, _fontFamily);
-  static const IconData more_square = IconsaxData(0xf076, _fontFamily);
-  static const IconData more = IconsaxData(0xf07a, _fontFamily);
-  static const IconData mouse_1 = IconsaxData(0xf07e, _fontFamily);
-  static const IconData mouse_circle = IconsaxData(0xf080, _fontFamily);
-  static const IconData mouse_square = IconsaxData(0xf082, _fontFamily);
-  static const IconData mouse = IconsaxData(0xf084, _fontFamily);
-  static const IconData music_circle = IconsaxData(0xf086, _fontFamily);
-  static const IconData music_dashboard = IconsaxData(0xf08c, _fontFamily);
-  static const IconData music_filter = IconsaxData(0xf08f, _fontFamily);
-  static const IconData music_library_2 = IconsaxData(0xf094, _fontFamily);
-  static const IconData music_play = IconsaxData(0xf098, _fontFamily);
-  static const IconData music_playlist = IconsaxData(0xf09c, _fontFamily);
-  static const IconData music_square_add = IconsaxData(0xf0a0, _fontFamily);
-  static const IconData music_square_remove = IconsaxData(0xf0a3, _fontFamily);
-  static const IconData music_square_search = IconsaxData(0xf0a6, _fontFamily);
-  static const IconData music_square = IconsaxData(0xf0a9, _fontFamily);
-  static const IconData music = IconsaxData(0xf0ab, _fontFamily);
-  static const IconData musicnote = IconsaxData(0xf0ae, _fontFamily);
-  static const IconData next = IconsaxData(0xf0b0, _fontFamily);
-  static const IconData note_1 = IconsaxData(0xf0b2, _fontFamily);
-  static const IconData note_2 = IconsaxData(0xf0b7, _fontFamily);
-  static const IconData note_21 = IconsaxData(0xf0bb, _fontFamily);
-  static const IconData note_add = IconsaxData(0xf0bd, _fontFamily);
-  static const IconData note_favorite = IconsaxData(0xf0c1, _fontFamily);
-  static const IconData note_remove = IconsaxData(0xf0c7, _fontFamily);
-  static const IconData note_square = IconsaxData(0xf0cc, _fontFamily);
-  static const IconData note_text = IconsaxData(0xf0ce, _fontFamily);
-  static const IconData note = IconsaxData(0xf0d3, _fontFamily);
-  static const IconData notification_1 = IconsaxData(0xf0d7, _fontFamily);
-  static const IconData notification_bing = IconsaxData(0xf0d9, _fontFamily);
-  static const IconData notification_circle = IconsaxData(0xf0dc, _fontFamily);
+      IconData(0xe999, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_swap =
+      IconData(0xe99c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_up_1 =
+      IconData(0xe99f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_up_2 =
+      IconData(0xe9a1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_up_3 =
+      IconData(0xe9a3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow_up =
+      IconData(0xe9a5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData arrow =
+      IconData(0xe9a7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData attach_circle =
+      IconData(0xe9ad, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData attach_square =
+      IconData(0xe9af, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData audio_square =
+      IconData(0xe9b1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData autobrightness =
+      IconData(0xe9b3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData award =
+      IconData(0xe9b6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData back_square =
+      IconData(0xe9b9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData backward_5_seconds =
+      IconData(0xe9bb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData backward_10_seconds =
+      IconData(0xe9bd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData backward_15_seconds =
+      IconData(0xe9c0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData backward_item =
+      IconData(0xe9c3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData backward =
+      IconData(0xe9c6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bag_2 =
+      IconData(0xe9c8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bag_cross_1 =
+      IconData(0xe9ca, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bag_cross =
+      IconData(0xe9ce, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bag_happy =
+      IconData(0xe9d0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bag_tick_2 =
+      IconData(0xe9d2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bag_tick =
+      IconData(0xe9d6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bag_timer =
+      IconData(0xe9d8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bag =
+      IconData(0xe9dc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData barcode =
+      IconData(0xe9e5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData battery_3full =
+      IconData(0xe9ed, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData battery_charging =
+      IconData(0xe9f1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData battery_disable =
+      IconData(0xe9f4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData battery_empty_1 =
+      IconData(0xe9f8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData battery_empty =
+      IconData(0xe9fb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData battery_full =
+      IconData(0xe9fd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bezier =
+      IconData(0xea02, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bill =
+      IconData(0xea09, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bitcoin_card =
+      IconData(0xea0d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bitcoin_convert =
+      IconData(0xea10, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bitcoin_refresh =
+      IconData(0xea15, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData blend_2 =
+      IconData(0xea18, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData blend =
+      IconData(0xea1d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bluetooth_2 =
+      IconData(0xea1f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bluetooth_circle =
+      IconData(0xea23, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bluetooth_rectangle =
+      IconData(0xea25, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bluetooth =
+      IconData(0xea27, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData blur =
+      IconData(0xea29, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData book_1 =
+      IconData(0xea2b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData book_saved =
+      IconData(0xea2f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData book_square =
+      IconData(0xea32, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData book =
+      IconData(0xea35, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bookmark_2 =
+      IconData(0xea39, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bookmark =
+      IconData(0xea3b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData box_1 =
+      IconData(0xea3d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData box_2 =
+      IconData(0xea40, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData box_add =
+      IconData(0xea47, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData box_remove =
+      IconData(0xea4b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData box_search =
+      IconData(0xea4f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData box_tick =
+      IconData(0xea53, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData box_time =
+      IconData(0xea57, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData box =
+      IconData(0xea5b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData briefcase =
+      IconData(0xea60, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData brifecase_cross =
+      IconData(0xea62, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData brifecase_tick =
+      IconData(0xea65, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData brifecase_timer =
+      IconData(0xea68, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData broom =
+      IconData(0xea6b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData brush_1 =
+      IconData(0xea71, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData brush_2 =
+      IconData(0xea73, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData brush_3 =
+      IconData(0xea77, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData brush_4 =
+      IconData(0xea7a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData brush =
+      IconData(0xea7d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bubble =
+      IconData(0xea81, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bucket_circle =
+      IconData(0xea84, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bucket_square =
+      IconData(0xea87, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bucket =
+      IconData(0xea8a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData building_3 =
+      IconData(0xea8e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData building_4 =
+      IconData(0xea93, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData building =
+      IconData(0xea98, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData buildings_2 =
+      IconData(0xea9e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData buildings =
+      IconData(0xeaa4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData buliding =
+      IconData(0xeaaa, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData bus =
+      IconData(0xeab2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData buy_crypto =
+      IconData(0xeab7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cake =
+      IconData(0xeaba, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData calculator =
+      IconData(0xeac0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData calendar_1 =
+      IconData(0xeac8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData calendar_2 =
+      IconData(0xeacd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData calendar_add =
+      IconData(0xead2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData calendar_circle =
+      IconData(0xead8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData calendar_edit =
+      IconData(0xeadb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData calendar_remove =
+      IconData(0xeade, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData calendar_search =
+      IconData(0xeae4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData calendar_tick =
+      IconData(0xeae7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData calendar =
+      IconData(0xeaed, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData call_add =
+      IconData(0xeaf5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData call_calling =
+      IconData(0xeaf8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData call_incoming =
+      IconData(0xeafc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData call_minus =
+      IconData(0xeaff, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData call_outgoing =
+      IconData(0xeb02, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData call_received =
+      IconData(0xeb05, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData call_remove =
+      IconData(0xeb08, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData call_slash =
+      IconData(0xeb0b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData call =
+      IconData(0xeb0e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData camera_slash =
+      IconData(0xeb10, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData camera =
+      IconData(0xeb16, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData candle_2 =
+      IconData(0xeb19, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData candle =
+      IconData(0xeb1b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData car =
+      IconData(0xeb1d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card_add =
+      IconData(0xeb21, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card_coin =
+      IconData(0xeb24, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card_edit =
+      IconData(0xeb2a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card_pos =
+      IconData(0xeb2d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card_receive =
+      IconData(0xeb32, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card_remove_1 =
+      IconData(0xeb35, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card_remove =
+      IconData(0xeb38, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card_send =
+      IconData(0xeb3c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card_slash =
+      IconData(0xeb3f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card_tick_1 =
+      IconData(0xeb46, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card_tick =
+      IconData(0xeb49, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData card =
+      IconData(0xeb4d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cards =
+      IconData(0xeb51, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData category_2 =
+      IconData(0xeb56, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData category =
+      IconData(0xeb5a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cd =
+      IconData(0xeb5e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData chart_1 =
+      IconData(0xeb60, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData chart_2 =
+      IconData(0xeb64, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData chart_3 =
+      IconData(0xeb67, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData chart_21 =
+      IconData(0xeb6a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData chart_square =
+      IconData(0xeb6e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData chart_success =
+      IconData(0xeb72, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData chart =
+      IconData(0xeb77, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData check =
+      IconData(0xeb7b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData chrome =
+      IconData(0xeb7f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData clipboard_close =
+      IconData(0xeb81, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData clipboard_export =
+      IconData(0xeb84, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData clipboard_import =
+      IconData(0xeb87, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData clipboard_text =
+      IconData(0xeb8a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData clipboard_tick =
+      IconData(0xeb8e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData clipboard =
+      IconData(0xeb91, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData clock_1 =
+      IconData(0xeb94, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData clock =
+      IconData(0xeb96, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData close_circle =
+      IconData(0xeb9a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData close_square =
+      IconData(0xeb9c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_add =
+      IconData(0xeb9e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_change =
+      IconData(0xeba0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_connection =
+      IconData(0xeba3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_cross =
+      IconData(0xeba5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_drizzle =
+      IconData(0xeba7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_fog =
+      IconData(0xeba9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_lightning =
+      IconData(0xebad, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_minus =
+      IconData(0xebaf, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_notif =
+      IconData(0xebb1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_plus =
+      IconData(0xebb3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_remove =
+      IconData(0xebb5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_snow =
+      IconData(0xebb7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud_sunny =
+      IconData(0xebb9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cloud =
+      IconData(0xebbb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData code_1 =
+      IconData(0xebbd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData code_circle =
+      IconData(0xebc1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData code =
+      IconData(0xebc5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData coffee =
+      IconData(0xebc8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData coin_1 =
+      IconData(0xebce, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData coin =
+      IconData(0xebd1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData color_swatch =
+      IconData(0xebd4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData colorfilter =
+      IconData(0xebd7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData colors_square =
+      IconData(0xebda, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData command_square =
+      IconData(0xebde, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData command =
+      IconData(0xebe4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData component =
+      IconData(0xebe9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData computing =
+      IconData(0xebea, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData convert_3d_cube =
+      IconData(0xebee, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData convert_card =
+      IconData(0xebf6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData convert =
+      IconData(0xebfc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData convertshape_2 =
+      IconData(0xebff, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData convertshape =
+      IconData(0xec03, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData copy_success =
+      IconData(0xec07, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData copy =
+      IconData(0xec09, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData copyright =
+      IconData(0xec0b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData courthouse =
+      IconData(0xec0d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cpu_charge =
+      IconData(0xec0f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cpu_setting =
+      IconData(0xec1d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cpu =
+      IconData(0xec29, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData creative_commons =
+      IconData(0xec37, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData crop =
+      IconData(0xec3a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData crown_1 =
+      IconData(0xec3d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData crown =
+      IconData(0xec3f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData cup =
+      IconData(0xec42, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData danger =
+      IconData(0xec47, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData data_2 =
+      IconData(0xec4a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData data =
+      IconData(0xec4f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData designtools =
+      IconData(0xec54, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData device_message =
+      IconData(0xec59, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData devices_1 =
+      IconData(0xec5f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData devices =
+      IconData(0xec67, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData diagram =
+      IconData(0xec6b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData diamonds =
+      IconData(0xec6d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData direct_down =
+      IconData(0xec6f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData direct_inbox =
+      IconData(0xec71, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData direct_left =
+      IconData(0xec74, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData direct_normal =
+      IconData(0xec76, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData direct_notification =
+      IconData(0xec78, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData direct_right =
+      IconData(0xec7b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData direct_send =
+      IconData(0xec7d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData direct_up =
+      IconData(0xec80, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData direct =
+      IconData(0xec82, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData directbox_default =
+      IconData(0xec86, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData directbox_notif =
+      IconData(0xec8a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData directbox_receive =
+      IconData(0xec8d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData directbox_send =
+      IconData(0xec91, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData discount_circle =
+      IconData(0xec95, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData discount_shape =
+      IconData(0xec99, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData discover_1 =
+      IconData(0xec9d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData discover =
+      IconData(0xec9f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData dislike =
+      IconData(0xeca1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_1 =
+      IconData(0xeca3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_cloud =
+      IconData(0xeca6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_code_2 =
+      IconData(0xeca9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_code =
+      IconData(0xecac, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_copy =
+      IconData(0xecb0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_download =
+      IconData(0xecb3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_favorite =
+      IconData(0xecb6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_filter =
+      IconData(0xecb9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_forward =
+      IconData(0xecbd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_like =
+      IconData(0xecc0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_normal =
+      IconData(0xecc3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_previous =
+      IconData(0xecc5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_sketch =
+      IconData(0xecc8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_text_1 =
+      IconData(0xeccb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_text =
+      IconData(0xeccf, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document_upload =
+      IconData(0xecd3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData document =
+      IconData(0xecd6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData dollar_circle =
+      IconData(0xecd8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData dollar_square =
+      IconData(0xecda, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData driver_2 =
+      IconData(0xecdc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData driver_refresh =
+      IconData(0xece4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData driver =
+      IconData(0xeceb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData driving =
+      IconData(0xecf3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData drop =
+      IconData(0xecfb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData edit_2 =
+      IconData(0xecfd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData edit =
+      IconData(0xed00, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData electricity =
+      IconData(0xed03, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData element_1 =
+      IconData(0xed07, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData element_2 =
+      IconData(0xed0a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData element_3 =
+      IconData(0xed0d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData element_4 =
+      IconData(0xed11, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData element_equal =
+      IconData(0xed15, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData element_plus =
+      IconData(0xed1a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData emoji_happy =
+      IconData(0xed1e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData emoji_normal =
+      IconData(0xed22, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData emoji_sad =
+      IconData(0xed26, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData empty_wallet_add =
+      IconData(0xed2a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData empty_wallet_change =
+      IconData(0xed2f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData empty_wallet_remove =
+      IconData(0xed34, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData empty_wallet_tick =
+      IconData(0xed39, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData empty_wallet_time =
+      IconData(0xed3e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData empty_wallet =
+      IconData(0xed43, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData eraser_1 =
+      IconData(0xed47, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData eraser =
+      IconData(0xed4a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData export_1 =
+      IconData(0xed4d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData export_2 =
+      IconData(0xed4f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData export_3 =
+      IconData(0xed51, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData export =
+      IconData(0xed53, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData external_drive =
+      IconData(0xed55, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData eye_slash =
+      IconData(0xed5a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData fatrows =
+      IconData(0xed5f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData favorite_chart =
+      IconData(0xed61, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData filter_add =
+      IconData(0xed64, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData filter_edit =
+      IconData(0xed66, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData filter_remove =
+      IconData(0xed68, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData filter_search =
+      IconData(0xed6a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData filter_square =
+      IconData(0xed6c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData filter_tick =
+      IconData(0xed6e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData filter =
+      IconData(0xed70, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData finger_cricle =
+      IconData(0xed72, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData finger_scan =
+      IconData(0xed75, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData firstline =
+      IconData(0xed7b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData flag_2 =
+      IconData(0xed80, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData flag =
+      IconData(0xed82, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData flash_1 =
+      IconData(0xed84, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData flash_circle_1 =
+      IconData(0xed88, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData flash_circle =
+      IconData(0xed8a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData flash_slash =
+      IconData(0xed8c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData flash =
+      IconData(0xed8f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData folder_2 =
+      IconData(0xed91, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData folder_add =
+      IconData(0xed93, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData folder_cloud =
+      IconData(0xed95, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData folder_connection =
+      IconData(0xed97, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData folder_cross =
+      IconData(0xed99, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData folder_favorite =
+      IconData(0xed9b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData folder_minus =
+      IconData(0xed9d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData folder_open =
+      IconData(0xed9f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData folder =
+      IconData(0xeda1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData forbidden_2 =
+      IconData(0xeda3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData forbidden =
+      IconData(0xeda5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData format_circle =
+      IconData(0xeda7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData format_square =
+      IconData(0xedac, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData forward_5_seconds =
+      IconData(0xedb1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData forward_10_seconds =
+      IconData(0xedb3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData forward_15_seconds =
+      IconData(0xedb6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData forward_item =
+      IconData(0xedb9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData forward_square =
+      IconData(0xedbc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData forward =
+      IconData(0xedbe, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData frame_1 =
+      IconData(0xedc0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData frame_2 =
+      IconData(0xedc3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData frame_3 =
+      IconData(0xedc5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData frame_4 =
+      IconData(0xedc7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData frame =
+      IconData(0xedcb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gallery_add =
+      IconData(0xedd0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gallery_edit =
+      IconData(0xedd4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gallery_favorite =
+      IconData(0xedd8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gallery_import =
+      IconData(0xeddc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gallery_remove =
+      IconData(0xede0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gallery_slash =
+      IconData(0xede4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gallery_tick =
+      IconData(0xede9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gallery =
+      IconData(0xeded, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData game =
+      IconData(0xedf0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gameboy =
+      IconData(0xedf7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gas_station =
+      IconData(0xedfc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gemini_2 =
+      IconData(0xee01, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gemini =
+      IconData(0xee03, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ghost =
+      IconData(0xee08, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gift =
+      IconData(0xee0b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData glass_1 =
+      IconData(0xee10, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData glass =
+      IconData(0xee12, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData global_edit =
+      IconData(0xee17, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData global_refresh =
+      IconData(0xee21, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData global_search =
+      IconData(0xee2a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData global =
+      IconData(0xee33, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gps_slash =
+      IconData(0xee3c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData gps =
+      IconData(0xee44, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grammerly =
+      IconData(0xee4a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData graph =
+      IconData(0xee4c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_1 =
+      IconData(0xee4e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_2 =
+      IconData(0xee57, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_3 =
+      IconData(0xee5b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_4 =
+      IconData(0xee5f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_5 =
+      IconData(0xee61, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_6 =
+      IconData(0xee64, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_7 =
+      IconData(0xee68, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_8 =
+      IconData(0xee6b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_9 =
+      IconData(0xee71, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_edit =
+      IconData(0xee73, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_eraser =
+      IconData(0xee7a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData grid_lock =
+      IconData(0xee82, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData group_1 =
+      IconData(0xee89, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData group =
+      IconData(0xee91, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData happyemoji =
+      IconData(0xee96, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData hashtag_1 =
+      IconData(0xee98, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData hashtag_down =
+      IconData(0xee9a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData hashtag_up =
+      IconData(0xee9d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData hashtag =
+      IconData(0xeea0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData headphone =
+      IconData(0xeea2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData headphones =
+      IconData(0xeea5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData health =
+      IconData(0xeead, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData heart_add =
+      IconData(0xeeb0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData heart_circle =
+      IconData(0xeeb2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData heart_edit =
+      IconData(0xeeb4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData heart_remove =
+      IconData(0xeeb6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData heart_search =
+      IconData(0xeeb8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData heart_slash =
+      IconData(0xeeba, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData heart_tick =
+      IconData(0xeebc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData heart =
+      IconData(0xeebe, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData hierarchy_2 =
+      IconData(0xeec0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData hierarchy_3 =
+      IconData(0xeec4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData hierarchy_square_2 =
+      IconData(0xeec8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData hierarchy_square_3 =
+      IconData(0xeeca, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData hierarchy_square =
+      IconData(0xeecc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData hierarchy =
+      IconData(0xeecf, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData home_1 =
+      IconData(0xeed3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData home_2 =
+      IconData(0xeed5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData home_hashtag =
+      IconData(0xeed7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData home_trend_down =
+      IconData(0xeed9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData home_trend_up =
+      IconData(0xeedb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData home_wifi =
+      IconData(0xeedd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData home =
+      IconData(0xeee1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData hospital =
+      IconData(0xeee3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData house_2 =
+      IconData(0xeee7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData house =
+      IconData(0xeeeb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData image =
+      IconData(0xeef1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData import_1 =
+      IconData(0xeef3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData import_2 =
+      IconData(0xeef5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData import =
+      IconData(0xeef7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData info_circle =
+      IconData(0xeef9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData information =
+      IconData(0xeefc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData instagram =
+      IconData(0xeeff, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData judge =
+      IconData(0xef02, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData kanban =
+      IconData(0xef06, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData key_square =
+      IconData(0xef08, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData key =
+      IconData(0xef0a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData keyboard_open =
+      IconData(0xef0c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData keyboard =
+      IconData(0xef12, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData lamp_1 =
+      IconData(0xef17, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData lamp_charge =
+      IconData(0xef1a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData lamp_on =
+      IconData(0xef1d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData lamp_slash =
+      IconData(0xef1f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData lamp =
+      IconData(0xef23, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData language_circle =
+      IconData(0xef25, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData language_square =
+      IconData(0xef27, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData layer =
+      IconData(0xef29, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData level =
+      IconData(0xef2c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData lifebuoy =
+      IconData(0xef30, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData like_1 =
+      IconData(0xef32, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData like_dislike =
+      IconData(0xef34, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData like_shapes =
+      IconData(0xef38, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData like_tag =
+      IconData(0xef3a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData like =
+      IconData(0xef3c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData link_1 =
+      IconData(0xef3e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData link_2 =
+      IconData(0xef41, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData link_21 =
+      IconData(0xef45, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData link_circle =
+      IconData(0xef49, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData link_square =
+      IconData(0xef4c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData link =
+      IconData(0xef4f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData location_add =
+      IconData(0xef51, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData location_cross =
+      IconData(0xef53, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData location_minus =
+      IconData(0xef55, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData location_slash =
+      IconData(0xef57, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData location_tick =
+      IconData(0xef5a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData location =
+      IconData(0xef5c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData lock_1 =
+      IconData(0xef5e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData lock_circle =
+      IconData(0xef61, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData lock_slash =
+      IconData(0xef63, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData lock =
+      IconData(0xef68, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData login_1 =
+      IconData(0xef6d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData login =
+      IconData(0xef6f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData logout_1 =
+      IconData(0xef71, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData logout =
+      IconData(0xef73, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData lovely =
+      IconData(0xef75, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData magic_star =
+      IconData(0xef77, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData magicpen =
+      IconData(0xef79, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData main_component =
+      IconData(0xef7e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData man =
+      IconData(0xef80, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData map_1 =
+      IconData(0xef82, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData map =
+      IconData(0xef85, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mask_1 =
+      IconData(0xef8a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mask_2 =
+      IconData(0xef8c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mask =
+      IconData(0xef8e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData math =
+      IconData(0xef90, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData maximize_1 =
+      IconData(0xef96, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData maximize_2 =
+      IconData(0xef99, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData maximize_3 =
+      IconData(0xef9e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData maximize_4 =
+      IconData(0xefa0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData maximize_21 =
+      IconData(0xefa3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData maximize =
+      IconData(0xefa5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData medal_star =
+      IconData(0xefa7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData medal =
+      IconData(0xefaa, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData menu_1 =
+      IconData(0xefac, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData menu_board =
+      IconData(0xefb0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData menu =
+      IconData(0xefb6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_2 =
+      IconData(0xefba, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_add_1 =
+      IconData(0xefbc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_add =
+      IconData(0xefbe, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_circle =
+      IconData(0xefc1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_edit =
+      IconData(0xefc3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_favorite =
+      IconData(0xefc6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_minus =
+      IconData(0xefcb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_notif =
+      IconData(0xefcd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_programming =
+      IconData(0xefd2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_question =
+      IconData(0xefd6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_remove =
+      IconData(0xefd9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_search =
+      IconData(0xefdc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_square =
+      IconData(0xefe1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_text_1 =
+      IconData(0xefe3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_text =
+      IconData(0xefe6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_tick =
+      IconData(0xefe9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message_time =
+      IconData(0xefec, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData message =
+      IconData(0xefef, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData messages_1 =
+      IconData(0xeff3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData messages_2 =
+      IconData(0xeff8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData messages_3 =
+      IconData(0xeffa, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData messages =
+      IconData(0xeffc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData microphone_2 =
+      IconData(0xefff, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData microphone_slash_1 =
+      IconData(0xf001, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData microphone_slash =
+      IconData(0xf005, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData microphone =
+      IconData(0xf00a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData microscope =
+      IconData(0xf00c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData milk =
+      IconData(0xf010, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mini_music_sqaure =
+      IconData(0xf013, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData minus_cirlce =
+      IconData(0xf016, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData minus_square =
+      IconData(0xf018, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData minus =
+      IconData(0xf01a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mirror =
+      IconData(0xf01c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mirroring_screen =
+      IconData(0xf01e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mobile_programming =
+      IconData(0xf022, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mobile =
+      IconData(0xf025, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money_2 =
+      IconData(0xf028, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money_3 =
+      IconData(0xf02e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money_4 =
+      IconData(0xf032, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money_add =
+      IconData(0xf038, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money_change =
+      IconData(0xf03c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money_forbidden =
+      IconData(0xf040, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money_recive =
+      IconData(0xf045, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money_remove =
+      IconData(0xf04c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money_send =
+      IconData(0xf050, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money_tick =
+      IconData(0xf053, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money_time =
+      IconData(0xf057, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData money =
+      IconData(0xf05b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData moneys =
+      IconData(0xf05f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData monitor_mobbile =
+      IconData(0xf064, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData monitor_recorder =
+      IconData(0xf067, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData monitor =
+      IconData(0xf06a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData moon =
+      IconData(0xf06c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData more_2 =
+      IconData(0xf06e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData more_circle =
+      IconData(0xf072, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData more_square =
+      IconData(0xf076, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData more =
+      IconData(0xf07a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mouse_1 =
+      IconData(0xf07e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mouse_circle =
+      IconData(0xf080, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mouse_square =
+      IconData(0xf082, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData mouse =
+      IconData(0xf084, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData music_circle =
+      IconData(0xf086, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData music_dashboard =
+      IconData(0xf08c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData music_filter =
+      IconData(0xf08f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData music_library_2 =
+      IconData(0xf094, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData music_play =
+      IconData(0xf098, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData music_playlist =
+      IconData(0xf09c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData music_square_add =
+      IconData(0xf0a0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData music_square_remove =
+      IconData(0xf0a3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData music_square_search =
+      IconData(0xf0a6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData music_square =
+      IconData(0xf0a9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData music =
+      IconData(0xf0ab, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData musicnote =
+      IconData(0xf0ae, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData next =
+      IconData(0xf0b0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData note_1 =
+      IconData(0xf0b2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData note_2 =
+      IconData(0xf0b7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData note_21 =
+      IconData(0xf0bb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData note_add =
+      IconData(0xf0bd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData note_favorite =
+      IconData(0xf0c1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData note_remove =
+      IconData(0xf0c7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData note_square =
+      IconData(0xf0cc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData note_text =
+      IconData(0xf0ce, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData note =
+      IconData(0xf0d3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData notification_1 =
+      IconData(0xf0d7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData notification_bing =
+      IconData(0xf0d9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData notification_circle =
+      IconData(0xf0dc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
   static const IconData notification_favorite =
-      IconsaxData(0xf0de, _fontFamily);
-  static const IconData notification_status = IconsaxData(0xf0e1, _fontFamily);
-  static const IconData notification = IconsaxData(0xf0e5, _fontFamily);
-  static const IconData omega_circle = IconsaxData(0xf0e8, _fontFamily);
-  static const IconData omega_square = IconsaxData(0xf0ea, _fontFamily);
-  static const IconData paintbucket = IconsaxData(0xf0ec, _fontFamily);
-  static const IconData paperclip_2 = IconsaxData(0xf0ef, _fontFamily);
-  static const IconData paperclip = IconsaxData(0xf0f1, _fontFamily);
-  static const IconData password_check = IconsaxData(0xf0f3, _fontFamily);
-  static const IconData path_2 = IconsaxData(0xf0f8, _fontFamily);
-  static const IconData path_square = IconsaxData(0xf0fb, _fontFamily);
-  static const IconData path = IconsaxData(0xf0ff, _fontFamily);
-  static const IconData pause_circle = IconsaxData(0xf102, _fontFamily);
-  static const IconData pause = IconsaxData(0xf105, _fontFamily);
-  static const IconData pen_add = IconsaxData(0xf107, _fontFamily);
-  static const IconData pen_close = IconsaxData(0xf10b, _fontFamily);
-  static const IconData pen_remove = IconsaxData(0xf10f, _fontFamily);
-  static const IconData pen_tool_2 = IconsaxData(0xf113, _fontFamily);
-  static const IconData pen_tool = IconsaxData(0xf11a, _fontFamily);
-  static const IconData people = IconsaxData(0xf124, _fontFamily);
-  static const IconData percentage_circle = IconsaxData(0xf12a, _fontFamily);
-  static const IconData percentage_square = IconsaxData(0xf12e, _fontFamily);
-  static const IconData personalcard = IconsaxData(0xf132, _fontFamily);
-  static const IconData pet = IconsaxData(0xf138, _fontFamily);
-  static const IconData pharagraphspacing = IconsaxData(0xf13d, _fontFamily);
-  static const IconData picture_frame = IconsaxData(0xf140, _fontFamily);
-  static const IconData play_add = IconsaxData(0xf142, _fontFamily);
-  static const IconData play_circle = IconsaxData(0xf145, _fontFamily);
-  static const IconData play_cricle = IconsaxData(0xf147, _fontFamily);
-  static const IconData play_remove = IconsaxData(0xf14c, _fontFamily);
-  static const IconData play = IconsaxData(0xf14f, _fontFamily);
-  static const IconData presention_chart = IconsaxData(0xf151, _fontFamily);
-  static const IconData previous = IconsaxData(0xf155, _fontFamily);
-  static const IconData printer_slash = IconsaxData(0xf157, _fontFamily);
-  static const IconData printer = IconsaxData(0xf15f, _fontFamily);
-  static const IconData profile_2user = IconsaxData(0xf164, _fontFamily);
-  static const IconData profile_add = IconsaxData(0xf168, _fontFamily);
-  static const IconData profile_circle = IconsaxData(0xf16b, _fontFamily);
-  static const IconData profile_delete = IconsaxData(0xf16e, _fontFamily);
-  static const IconData profile_remove = IconsaxData(0xf171, _fontFamily);
-  static const IconData profile_tick = IconsaxData(0xf174, _fontFamily);
-  static const IconData profile = IconsaxData(0xf177, _fontFamily);
-  static const IconData programming_arrow = IconsaxData(0xf179, _fontFamily);
-  static const IconData programming_arrows = IconsaxData(0xf17b, _fontFamily);
-  static const IconData quote_down_circle = IconsaxData(0xf17f, _fontFamily);
-  static const IconData quote_down_square = IconsaxData(0xf182, _fontFamily);
-  static const IconData quote_down = IconsaxData(0xf185, _fontFamily);
-  static const IconData quote_up_circle = IconsaxData(0xf187, _fontFamily);
-  static const IconData quote_up_square = IconsaxData(0xf18a, _fontFamily);
-  static const IconData quote_up = IconsaxData(0xf18d, _fontFamily);
-  static const IconData radar_1 = IconsaxData(0xf18f, _fontFamily);
-  static const IconData radar_2 = IconsaxData(0xf191, _fontFamily);
-  static const IconData radar = IconsaxData(0xf193, _fontFamily);
-  static const IconData radio = IconsaxData(0xf198, _fontFamily);
-  static const IconData ram_2 = IconsaxData(0xf19e, _fontFamily);
-  static const IconData ram = IconsaxData(0xf1a3, _fontFamily);
-  static const IconData ranking_1 = IconsaxData(0xf1a6, _fontFamily);
-  static const IconData ranking = IconsaxData(0xf1aa, _fontFamily);
-  static const IconData receipt_1 = IconsaxData(0xf1ae, _fontFamily);
-  static const IconData receipt_2_1 = IconsaxData(0xf1b1, _fontFamily);
-  static const IconData receipt_2 = IconsaxData(0xf1b6, _fontFamily);
-  static const IconData receipt_add = IconsaxData(0xf1b9, _fontFamily);
-  static const IconData receipt_discount = IconsaxData(0xf1bc, _fontFamily);
-  static const IconData receipt_disscount = IconsaxData(0xf1c1, _fontFamily);
-  static const IconData receipt_edit = IconsaxData(0xf1c5, _fontFamily);
-  static const IconData receipt_item = IconsaxData(0xf1c7, _fontFamily);
-  static const IconData receipt_minus = IconsaxData(0xf1cd, _fontFamily);
-  static const IconData receipt_search = IconsaxData(0xf1d0, _fontFamily);
-  static const IconData receipt_square = IconsaxData(0xf1d2, _fontFamily);
-  static const IconData receipt_text = IconsaxData(0xf1d4, _fontFamily);
-  static const IconData receipt = IconsaxData(0xf1d8, _fontFamily);
-  static const IconData receive_square_2 = IconsaxData(0xf1da, _fontFamily);
-  static const IconData receive_square = IconsaxData(0xf1dd, _fontFamily);
-  static const IconData received = IconsaxData(0xf1e0, _fontFamily);
-  static const IconData record_circle = IconsaxData(0xf1e3, _fontFamily);
-  static const IconData record = IconsaxData(0xf1e5, _fontFamily);
-  static const IconData recovery_convert = IconsaxData(0xf1e7, _fontFamily);
-  static const IconData redo = IconsaxData(0xf1eb, _fontFamily);
-  static const IconData refresh_2 = IconsaxData(0xf1ed, _fontFamily);
-  static const IconData refresh_circle = IconsaxData(0xf1ef, _fontFamily);
-  static const IconData refresh_left_square = IconsaxData(0xf1f2, _fontFamily);
-  static const IconData refresh_right_square = IconsaxData(0xf1f4, _fontFamily);
-  static const IconData refresh_square_2 = IconsaxData(0xf1f6, _fontFamily);
-  static const IconData refresh = IconsaxData(0xf1f9, _fontFamily);
-  static const IconData repeat_circle = IconsaxData(0xf1fc, _fontFamily);
-  static const IconData repeat = IconsaxData(0xf1ff, _fontFamily);
-  static const IconData repeate_music = IconsaxData(0xf201, _fontFamily);
-  static const IconData repeate_one = IconsaxData(0xf204, _fontFamily);
-  static const IconData reserve = IconsaxData(0xf207, _fontFamily);
-  static const IconData rotate_left_1 = IconsaxData(0xf20b, _fontFamily);
-  static const IconData rotate_left = IconsaxData(0xf20d, _fontFamily);
-  static const IconData rotate_right_1 = IconsaxData(0xf20f, _fontFamily);
-  static const IconData rotate_right = IconsaxData(0xf211, _fontFamily);
-  static const IconData route_square = IconsaxData(0xf213, _fontFamily);
-  static const IconData routing_2 = IconsaxData(0xf215, _fontFamily);
-  static const IconData routing = IconsaxData(0xf21a, _fontFamily);
-  static const IconData row_horizontal = IconsaxData(0xf21f, _fontFamily);
-  static const IconData row_vertical = IconsaxData(0xf221, _fontFamily);
-  static const IconData ruler = IconsaxData(0xf223, _fontFamily);
-  static const IconData rulerpen = IconsaxData(0xf228, _fontFamily);
-  static const IconData safe_home = IconsaxData(0xf22f, _fontFamily);
-  static const IconData sagittarius = IconsaxData(0xf231, _fontFamily);
-  static const IconData save_2 = IconsaxData(0xf233, _fontFamily);
-  static const IconData save_add = IconsaxData(0xf235, _fontFamily);
-  static const IconData save_minus = IconsaxData(0xf238, _fontFamily);
-  static const IconData save_remove = IconsaxData(0xf23b, _fontFamily);
-  static const IconData scan_barcode = IconsaxData(0xf23e, _fontFamily);
-  static const IconData scan = IconsaxData(0xf246, _fontFamily);
-  static const IconData scanner = IconsaxData(0xf24d, _fontFamily);
-  static const IconData scanning = IconsaxData(0xf252, _fontFamily);
-  static const IconData scissor_1 = IconsaxData(0xf25a, _fontFamily);
-  static const IconData scissor = IconsaxData(0xf25c, _fontFamily);
-  static const IconData screenmirroring = IconsaxData(0xf25f, _fontFamily);
-  static const IconData scroll = IconsaxData(0xf261, _fontFamily);
-  static const IconData search_favorite_1 = IconsaxData(0xf264, _fontFamily);
-  static const IconData search_favorite = IconsaxData(0xf267, _fontFamily);
-  static const IconData search_normal_1 = IconsaxData(0xf26a, _fontFamily);
-  static const IconData search_normal = IconsaxData(0xf26c, _fontFamily);
-  static const IconData search_status_1 = IconsaxData(0xf26e, _fontFamily);
-  static const IconData search_status = IconsaxData(0xf272, _fontFamily);
-  static const IconData search_zoom_in_1 = IconsaxData(0xf276, _fontFamily);
-  static const IconData search_zoom_in = IconsaxData(0xf279, _fontFamily);
-  static const IconData search_zoom_out_1 = IconsaxData(0xf27c, _fontFamily);
-  static const IconData search_zoom_out = IconsaxData(0xf27f, _fontFamily);
-  static const IconData security_card = IconsaxData(0xf282, _fontFamily);
-  static const IconData security_safe = IconsaxData(0xf285, _fontFamily);
-  static const IconData security_time = IconsaxData(0xf287, _fontFamily);
-  static const IconData security_user = IconsaxData(0xf28a, _fontFamily);
-  static const IconData security = IconsaxData(0xf28d, _fontFamily);
-  static const IconData send_1 = IconsaxData(0xf28f, _fontFamily);
-  static const IconData send_2 = IconsaxData(0xf292, _fontFamily);
-  static const IconData send_sqaure_2 = IconsaxData(0xf295, _fontFamily);
-  static const IconData send_square = IconsaxData(0xf298, _fontFamily);
-  static const IconData send = IconsaxData(0xf29c, _fontFamily);
-  static const IconData setting_2 = IconsaxData(0xf29e, _fontFamily);
-  static const IconData setting_3 = IconsaxData(0xf2a0, _fontFamily);
-  static const IconData setting_4 = IconsaxData(0xf2a7, _fontFamily);
-  static const IconData setting_5 = IconsaxData(0xf2ad, _fontFamily);
-  static const IconData setting = IconsaxData(0xf2b3, _fontFamily);
-  static const IconData settings = IconsaxData(0xf2b5, _fontFamily);
-  static const IconData shapes_1 = IconsaxData(0xf2b8, _fontFamily);
-  static const IconData shapes = IconsaxData(0xf2ba, _fontFamily);
-  static const IconData share = IconsaxData(0xf2bc, _fontFamily);
-  static const IconData shield_cross = IconsaxData(0xf2c2, _fontFamily);
-  static const IconData shield_search = IconsaxData(0xf2c4, _fontFamily);
-  static const IconData shield_security = IconsaxData(0xf2c7, _fontFamily);
-  static const IconData shield_slash = IconsaxData(0xf2c9, _fontFamily);
-  static const IconData shield_tick = IconsaxData(0xf2cc, _fontFamily);
-  static const IconData shield = IconsaxData(0xf2ce, _fontFamily);
-  static const IconData ship = IconsaxData(0xf2d0, _fontFamily);
-  static const IconData shop_add = IconsaxData(0xf2d3, _fontFamily);
-  static const IconData shop_remove = IconsaxData(0xf2d8, _fontFamily);
-  static const IconData shop = IconsaxData(0xf2dd, _fontFamily);
-  static const IconData shopping_bag = IconsaxData(0xf2e2, _fontFamily);
-  static const IconData shopping_cart = IconsaxData(0xf2e5, _fontFamily);
-  static const IconData shuffle = IconsaxData(0xf2e9, _fontFamily);
-  static const IconData sidebar_bottom = IconsaxData(0xf2ec, _fontFamily);
-  static const IconData sidebar_left = IconsaxData(0xf2ef, _fontFamily);
-  static const IconData sidebar_right = IconsaxData(0xf2f2, _fontFamily);
-  static const IconData sidebar_top = IconsaxData(0xf2f5, _fontFamily);
-  static const IconData signpost = IconsaxData(0xf2f8, _fontFamily);
-  static const IconData simcard_1 = IconsaxData(0xf2fc, _fontFamily);
-  static const IconData simcard_2 = IconsaxData(0xf301, _fontFamily);
-  static const IconData simcard = IconsaxData(0xf303, _fontFamily);
-  static const IconData size = IconsaxData(0xf306, _fontFamily);
-  static const IconData slash = IconsaxData(0xf308, _fontFamily);
-  static const IconData slider_horizontal_1 = IconsaxData(0xf30b, _fontFamily);
-  static const IconData slider_horizontal = IconsaxData(0xf30e, _fontFamily);
-  static const IconData slider_vertical_1 = IconsaxData(0xf311, _fontFamily);
-  static const IconData slider_vertical = IconsaxData(0xf314, _fontFamily);
-  static const IconData slider = IconsaxData(0xf317, _fontFamily);
-  static const IconData smallcaps = IconsaxData(0xf31b, _fontFamily);
-  static const IconData smart_car = IconsaxData(0xf31e, _fontFamily);
-  static const IconData smart_home = IconsaxData(0xf324, _fontFamily);
-  static const IconData smileys = IconsaxData(0xf328, _fontFamily);
-  static const IconData sms_edit = IconsaxData(0xf32e, _fontFamily);
-  static const IconData sms_notification = IconsaxData(0xf331, _fontFamily);
-  static const IconData sms_search = IconsaxData(0xf334, _fontFamily);
-  static const IconData sms_star = IconsaxData(0xf337, _fontFamily);
-  static const IconData sms_tracking = IconsaxData(0xf33a, _fontFamily);
-  static const IconData sms = IconsaxData(0xf33d, _fontFamily);
-  static const IconData sort = IconsaxData(0xf33f, _fontFamily);
-  static const IconData sound = IconsaxData(0xf343, _fontFamily);
-  static const IconData speaker = IconsaxData(0xf348, _fontFamily);
-  static const IconData speedometer = IconsaxData(0xf34b, _fontFamily);
-  static const IconData star_1 = IconsaxData(0xf34e, _fontFamily);
-  static const IconData star_slash = IconsaxData(0xf350, _fontFamily);
-  static const IconData star = IconsaxData(0xf353, _fontFamily);
-  static const IconData status_up = IconsaxData(0xf357, _fontFamily);
-  static const IconData status = IconsaxData(0xf35c, _fontFamily);
-  static const IconData sticker = IconsaxData(0xf35f, _fontFamily);
-  static const IconData stickynote = IconsaxData(0xf361, _fontFamily);
-  static const IconData stop_circle = IconsaxData(0xf367, _fontFamily);
-  static const IconData stop = IconsaxData(0xf369, _fontFamily);
-  static const IconData story = IconsaxData(0xf36b, _fontFamily);
-  static const IconData strongbox_2 = IconsaxData(0xf36f, _fontFamily);
-  static const IconData strongbox = IconsaxData(0xf372, _fontFamily);
-  static const IconData subtitle = IconsaxData(0xf374, _fontFamily);
-  static const IconData sun_1 = IconsaxData(0xf379, _fontFamily);
-  static const IconData sun_fog = IconsaxData(0xf37b, _fontFamily);
-  static const IconData sun = IconsaxData(0xf380, _fontFamily);
-  static const IconData tag_2 = IconsaxData(0xf387, _fontFamily);
-  static const IconData tag_cross = IconsaxData(0xf38a, _fontFamily);
-  static const IconData tag_right = IconsaxData(0xf38c, _fontFamily);
-  static const IconData tag_user = IconsaxData(0xf38e, _fontFamily);
-  static const IconData tag = IconsaxData(0xf391, _fontFamily);
-  static const IconData task_square = IconsaxData(0xf393, _fontFamily);
-  static const IconData task = IconsaxData(0xf398, _fontFamily);
-  static const IconData teacher = IconsaxData(0xf39e, _fontFamily);
-  static const IconData text_block = IconsaxData(0xf3a0, _fontFamily);
-  static const IconData text_bold = IconsaxData(0xf3a2, _fontFamily);
-  static const IconData text_italic = IconsaxData(0xf3a4, _fontFamily);
-  static const IconData text_underline = IconsaxData(0xf3a6, _fontFamily);
-  static const IconData text = IconsaxData(0xf3a9, _fontFamily);
-  static const IconData textalign_center = IconsaxData(0xf3ab, _fontFamily);
+      IconData(0xf0de, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData notification_status =
+      IconData(0xf0e1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData notification =
+      IconData(0xf0e5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData omega_circle =
+      IconData(0xf0e8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData omega_square =
+      IconData(0xf0ea, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData paintbucket =
+      IconData(0xf0ec, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData paperclip_2 =
+      IconData(0xf0ef, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData paperclip =
+      IconData(0xf0f1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData password_check =
+      IconData(0xf0f3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData path_2 =
+      IconData(0xf0f8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData path_square =
+      IconData(0xf0fb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData path =
+      IconData(0xf0ff, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData pause_circle =
+      IconData(0xf102, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData pause =
+      IconData(0xf105, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData pen_add =
+      IconData(0xf107, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData pen_close =
+      IconData(0xf10b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData pen_remove =
+      IconData(0xf10f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData pen_tool_2 =
+      IconData(0xf113, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData pen_tool =
+      IconData(0xf11a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData people =
+      IconData(0xf124, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData percentage_circle =
+      IconData(0xf12a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData percentage_square =
+      IconData(0xf12e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData personalcard =
+      IconData(0xf132, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData pet =
+      IconData(0xf138, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData pharagraphspacing =
+      IconData(0xf13d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData picture_frame =
+      IconData(0xf140, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData play_add =
+      IconData(0xf142, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData play_circle =
+      IconData(0xf145, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData play_cricle =
+      IconData(0xf147, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData play_remove =
+      IconData(0xf14c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData play =
+      IconData(0xf14f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData presention_chart =
+      IconData(0xf151, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData previous =
+      IconData(0xf155, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData printer_slash =
+      IconData(0xf157, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData printer =
+      IconData(0xf15f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData profile_2user =
+      IconData(0xf164, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData profile_add =
+      IconData(0xf168, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData profile_circle =
+      IconData(0xf16b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData profile_delete =
+      IconData(0xf16e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData profile_remove =
+      IconData(0xf171, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData profile_tick =
+      IconData(0xf174, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData profile =
+      IconData(0xf177, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData programming_arrow =
+      IconData(0xf179, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData programming_arrows =
+      IconData(0xf17b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData quote_down_circle =
+      IconData(0xf17f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData quote_down_square =
+      IconData(0xf182, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData quote_down =
+      IconData(0xf185, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData quote_up_circle =
+      IconData(0xf187, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData quote_up_square =
+      IconData(0xf18a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData quote_up =
+      IconData(0xf18d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData radar_1 =
+      IconData(0xf18f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData radar_2 =
+      IconData(0xf191, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData radar =
+      IconData(0xf193, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData radio =
+      IconData(0xf198, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ram_2 =
+      IconData(0xf19e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ram =
+      IconData(0xf1a3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ranking_1 =
+      IconData(0xf1a6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ranking =
+      IconData(0xf1aa, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_1 =
+      IconData(0xf1ae, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_2_1 =
+      IconData(0xf1b1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_2 =
+      IconData(0xf1b6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_add =
+      IconData(0xf1b9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_discount =
+      IconData(0xf1bc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_disscount =
+      IconData(0xf1c1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_edit =
+      IconData(0xf1c5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_item =
+      IconData(0xf1c7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_minus =
+      IconData(0xf1cd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_search =
+      IconData(0xf1d0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_square =
+      IconData(0xf1d2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt_text =
+      IconData(0xf1d4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receipt =
+      IconData(0xf1d8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receive_square_2 =
+      IconData(0xf1da, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData receive_square =
+      IconData(0xf1dd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData received =
+      IconData(0xf1e0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData record_circle =
+      IconData(0xf1e3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData record =
+      IconData(0xf1e5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData recovery_convert =
+      IconData(0xf1e7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData redo =
+      IconData(0xf1eb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData refresh_2 =
+      IconData(0xf1ed, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData refresh_circle =
+      IconData(0xf1ef, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData refresh_left_square =
+      IconData(0xf1f2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData refresh_right_square =
+      IconData(0xf1f4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData refresh_square_2 =
+      IconData(0xf1f6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData refresh =
+      IconData(0xf1f9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData repeat_circle =
+      IconData(0xf1fc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData repeat =
+      IconData(0xf1ff, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData repeate_music =
+      IconData(0xf201, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData repeate_one =
+      IconData(0xf204, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData reserve =
+      IconData(0xf207, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData rotate_left_1 =
+      IconData(0xf20b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData rotate_left =
+      IconData(0xf20d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData rotate_right_1 =
+      IconData(0xf20f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData rotate_right =
+      IconData(0xf211, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData route_square =
+      IconData(0xf213, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData routing_2 =
+      IconData(0xf215, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData routing =
+      IconData(0xf21a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData row_horizontal =
+      IconData(0xf21f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData row_vertical =
+      IconData(0xf221, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ruler =
+      IconData(0xf223, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData rulerpen =
+      IconData(0xf228, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData safe_home =
+      IconData(0xf22f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sagittarius =
+      IconData(0xf231, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData save_2 =
+      IconData(0xf233, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData save_add =
+      IconData(0xf235, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData save_minus =
+      IconData(0xf238, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData save_remove =
+      IconData(0xf23b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData scan_barcode =
+      IconData(0xf23e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData scan =
+      IconData(0xf246, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData scanner =
+      IconData(0xf24d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData scanning =
+      IconData(0xf252, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData scissor_1 =
+      IconData(0xf25a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData scissor =
+      IconData(0xf25c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData screenmirroring =
+      IconData(0xf25f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData scroll =
+      IconData(0xf261, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData search_favorite_1 =
+      IconData(0xf264, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData search_favorite =
+      IconData(0xf267, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData search_normal_1 =
+      IconData(0xf26a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData search_normal =
+      IconData(0xf26c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData search_status_1 =
+      IconData(0xf26e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData search_status =
+      IconData(0xf272, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData search_zoom_in_1 =
+      IconData(0xf276, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData search_zoom_in =
+      IconData(0xf279, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData search_zoom_out_1 =
+      IconData(0xf27c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData search_zoom_out =
+      IconData(0xf27f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData security_card =
+      IconData(0xf282, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData security_safe =
+      IconData(0xf285, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData security_time =
+      IconData(0xf287, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData security_user =
+      IconData(0xf28a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData security =
+      IconData(0xf28d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData send_1 =
+      IconData(0xf28f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData send_2 =
+      IconData(0xf292, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData send_sqaure_2 =
+      IconData(0xf295, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData send_square =
+      IconData(0xf298, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData send =
+      IconData(0xf29c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData setting_2 =
+      IconData(0xf29e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData setting_3 =
+      IconData(0xf2a0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData setting_4 =
+      IconData(0xf2a7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData setting_5 =
+      IconData(0xf2ad, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData setting =
+      IconData(0xf2b3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData settings =
+      IconData(0xf2b5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shapes_1 =
+      IconData(0xf2b8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shapes =
+      IconData(0xf2ba, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData share =
+      IconData(0xf2bc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shield_cross =
+      IconData(0xf2c2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shield_search =
+      IconData(0xf2c4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shield_security =
+      IconData(0xf2c7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shield_slash =
+      IconData(0xf2c9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shield_tick =
+      IconData(0xf2cc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shield =
+      IconData(0xf2ce, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ship =
+      IconData(0xf2d0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shop_add =
+      IconData(0xf2d3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shop_remove =
+      IconData(0xf2d8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shop =
+      IconData(0xf2dd, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shopping_bag =
+      IconData(0xf2e2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shopping_cart =
+      IconData(0xf2e5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData shuffle =
+      IconData(0xf2e9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sidebar_bottom =
+      IconData(0xf2ec, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sidebar_left =
+      IconData(0xf2ef, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sidebar_right =
+      IconData(0xf2f2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sidebar_top =
+      IconData(0xf2f5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData signpost =
+      IconData(0xf2f8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData simcard_1 =
+      IconData(0xf2fc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData simcard_2 =
+      IconData(0xf301, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData simcard =
+      IconData(0xf303, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData size =
+      IconData(0xf306, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData slash =
+      IconData(0xf308, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData slider_horizontal_1 =
+      IconData(0xf30b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData slider_horizontal =
+      IconData(0xf30e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData slider_vertical_1 =
+      IconData(0xf311, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData slider_vertical =
+      IconData(0xf314, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData slider =
+      IconData(0xf317, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData smallcaps =
+      IconData(0xf31b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData smart_car =
+      IconData(0xf31e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData smart_home =
+      IconData(0xf324, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData smileys =
+      IconData(0xf328, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sms_edit =
+      IconData(0xf32e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sms_notification =
+      IconData(0xf331, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sms_search =
+      IconData(0xf334, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sms_star =
+      IconData(0xf337, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sms_tracking =
+      IconData(0xf33a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sms =
+      IconData(0xf33d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sort =
+      IconData(0xf33f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sound =
+      IconData(0xf343, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData speaker =
+      IconData(0xf348, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData speedometer =
+      IconData(0xf34b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData star_1 =
+      IconData(0xf34e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData star_slash =
+      IconData(0xf350, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData star =
+      IconData(0xf353, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData status_up =
+      IconData(0xf357, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData status =
+      IconData(0xf35c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sticker =
+      IconData(0xf35f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData stickynote =
+      IconData(0xf361, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData stop_circle =
+      IconData(0xf367, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData stop =
+      IconData(0xf369, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData story =
+      IconData(0xf36b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData strongbox_2 =
+      IconData(0xf36f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData strongbox =
+      IconData(0xf372, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData subtitle =
+      IconData(0xf374, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sun_1 =
+      IconData(0xf379, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sun_fog =
+      IconData(0xf37b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData sun =
+      IconData(0xf380, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData tag_2 =
+      IconData(0xf387, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData tag_cross =
+      IconData(0xf38a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData tag_right =
+      IconData(0xf38c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData tag_user =
+      IconData(0xf38e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData tag =
+      IconData(0xf391, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData task_square =
+      IconData(0xf393, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData task =
+      IconData(0xf398, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData teacher =
+      IconData(0xf39e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData text_block =
+      IconData(0xf3a0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData text_bold =
+      IconData(0xf3a2, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData text_italic =
+      IconData(0xf3a4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData text_underline =
+      IconData(0xf3a6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData text =
+      IconData(0xf3a9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData textalign_center =
+      IconData(0xf3ab, fontFamily: _fontFamily, fontPackage: 'ficonsax');
   static const IconData textalign_justifycenter =
-      IconsaxData(0xf3af, _fontFamily);
+      IconData(0xf3af, fontFamily: _fontFamily, fontPackage: 'ficonsax');
   static const IconData textalign_justifyleft =
-      IconsaxData(0xf3b3, _fontFamily);
+      IconData(0xf3b3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
   static const IconData textalign_justifyright =
-      IconsaxData(0xf3b7, _fontFamily);
-  static const IconData textalign_left = IconsaxData(0xf3bb, _fontFamily);
-  static const IconData textalign_right = IconsaxData(0xf3bf, _fontFamily);
-  static const IconData tick_circle = IconsaxData(0xf3c3, _fontFamily);
-  static const IconData tick_square = IconsaxData(0xf3c5, _fontFamily);
-  static const IconData ticket_2 = IconsaxData(0xf3c7, _fontFamily);
-  static const IconData ticket_discount = IconsaxData(0xf3ca, _fontFamily);
-  static const IconData ticket_expired = IconsaxData(0xf3ce, _fontFamily);
-  static const IconData ticket_star = IconsaxData(0xf3d0, _fontFamily);
-  static const IconData ticket = IconsaxData(0xf3d3, _fontFamily);
-  static const IconData timer_1 = IconsaxData(0xf3d5, _fontFamily);
-  static const IconData timer_pause = IconsaxData(0xf3d8, _fontFamily);
-  static const IconData timer_start = IconsaxData(0xf3dc, _fontFamily);
-  static const IconData timer = IconsaxData(0xf3e0, _fontFamily);
-  static const IconData toggle_off_circle = IconsaxData(0xf3e3, _fontFamily);
-  static const IconData toggle_off = IconsaxData(0xf3e5, _fontFamily);
-  static const IconData toggle_on_circle = IconsaxData(0xf3e7, _fontFamily);
-  static const IconData toggle_on = IconsaxData(0xf3e9, _fontFamily);
-  static const IconData trade = IconsaxData(0xf3eb, _fontFamily);
-  static const IconData transaction_minus = IconsaxData(0xf3ef, _fontFamily);
-  static const IconData translate = IconsaxData(0xf3f1, _fontFamily);
-  static const IconData trash = IconsaxData(0xf3f7, _fontFamily);
-  static const IconData tree = IconsaxData(0xf3fb, _fontFamily);
-  static const IconData trend_down = IconsaxData(0xf3fe, _fontFamily);
-  static const IconData trend_up = IconsaxData(0xf400, _fontFamily);
-  static const IconData triangle = IconsaxData(0xf402, _fontFamily);
-  static const IconData truck_remove = IconsaxData(0xf405, _fontFamily);
-  static const IconData truck_tick = IconsaxData(0xf40b, _fontFamily);
-  static const IconData truck_time = IconsaxData(0xf411, _fontFamily);
-  static const IconData trush_square = IconsaxData(0xf417, _fontFamily);
-  static const IconData undo = IconsaxData(0xf41a, _fontFamily);
-  static const IconData unlimited = IconsaxData(0xf41c, _fontFamily);
-  static const IconData unlock = IconsaxData(0xf41f, _fontFamily);
-  static const IconData user_add = IconsaxData(0xf422, _fontFamily);
-  static const IconData user_cirlce_add = IconsaxData(0xf425, _fontFamily);
-  static const IconData user_edit = IconsaxData(0xf429, _fontFamily);
-  static const IconData user_minus = IconsaxData(0xf42c, _fontFamily);
-  static const IconData user_octagon = IconsaxData(0xf42f, _fontFamily);
-  static const IconData user_remove = IconsaxData(0xf432, _fontFamily);
-  static const IconData user_search = IconsaxData(0xf435, _fontFamily);
-  static const IconData user_square = IconsaxData(0xf438, _fontFamily);
-  static const IconData user_tag = IconsaxData(0xf43b, _fontFamily);
-  static const IconData user_tick = IconsaxData(0xf43e, _fontFamily);
-  static const IconData user = IconsaxData(0xf441, _fontFamily);
-  static const IconData verify = IconsaxData(0xf443, _fontFamily);
-  static const IconData video_add = IconsaxData(0xf445, _fontFamily);
-  static const IconData video_circle = IconsaxData(0xf448, _fontFamily);
-  static const IconData video_horizontal = IconsaxData(0xf44a, _fontFamily);
-  static const IconData video_octagon = IconsaxData(0xf44c, _fontFamily);
-  static const IconData video_play = IconsaxData(0xf44e, _fontFamily);
-  static const IconData video_remove = IconsaxData(0xf451, _fontFamily);
-  static const IconData video_slash = IconsaxData(0xf454, _fontFamily);
-  static const IconData video_square = IconsaxData(0xf45a, _fontFamily);
-  static const IconData video_tick = IconsaxData(0xf45c, _fontFamily);
-  static const IconData video_time = IconsaxData(0xf45f, _fontFamily);
-  static const IconData video_vertical = IconsaxData(0xf462, _fontFamily);
-  static const IconData video = IconsaxData(0xf464, _fontFamily);
-  static const IconData voice_cricle = IconsaxData(0xf467, _fontFamily);
-  static const IconData voice_square = IconsaxData(0xf46d, _fontFamily);
-  static const IconData volume_cross = IconsaxData(0xf473, _fontFamily);
-  static const IconData volume_high = IconsaxData(0xf476, _fontFamily);
-  static const IconData volume_low_1 = IconsaxData(0xf47a, _fontFamily);
-  static const IconData volume_low = IconsaxData(0xf47d, _fontFamily);
-  static const IconData volume_mute = IconsaxData(0xf480, _fontFamily);
-  static const IconData volume_slash = IconsaxData(0xf482, _fontFamily);
-  static const IconData volume_up = IconsaxData(0xf487, _fontFamily);
-  static const IconData wallet_1 = IconsaxData(0xf48a, _fontFamily);
-  static const IconData wallet_2 = IconsaxData(0xf48f, _fontFamily);
-  static const IconData wallet_3 = IconsaxData(0xf492, _fontFamily);
-  static const IconData wallet_add_1 = IconsaxData(0xf496, _fontFamily);
-  static const IconData wallet_add = IconsaxData(0xf49c, _fontFamily);
-  static const IconData wallet_check = IconsaxData(0xf4a0, _fontFamily);
-  static const IconData wallet_minus = IconsaxData(0xf4a4, _fontFamily);
-  static const IconData wallet_money = IconsaxData(0xf4aa, _fontFamily);
-  static const IconData wallet_remove = IconsaxData(0xf4ac, _fontFamily);
-  static const IconData wallet_search = IconsaxData(0xf4b0, _fontFamily);
-  static const IconData wallet = IconsaxData(0xf4b4, _fontFamily);
-  static const IconData warning_2 = IconsaxData(0xf4b7, _fontFamily);
-  static const IconData watch_status = IconsaxData(0xf4ba, _fontFamily);
-  static const IconData watch = IconsaxData(0xf4c0, _fontFamily);
-  static const IconData weight_1 = IconsaxData(0xf4c4, _fontFamily);
-  static const IconData weight = IconsaxData(0xf4c9, _fontFamily);
-  static const IconData wifi_square = IconsaxData(0xf4cb, _fontFamily);
-  static const IconData wifi = IconsaxData(0xf4cf, _fontFamily);
-  static const IconData wind_2 = IconsaxData(0xf4d3, _fontFamily);
-  static const IconData wind = IconsaxData(0xf4d6, _fontFamily);
-  static const IconData woman = IconsaxData(0xf4d9, _fontFamily);
+      IconData(0xf3b7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData textalign_left =
+      IconData(0xf3bb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData textalign_right =
+      IconData(0xf3bf, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData tick_circle =
+      IconData(0xf3c3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData tick_square =
+      IconData(0xf3c5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ticket_2 =
+      IconData(0xf3c7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ticket_discount =
+      IconData(0xf3ca, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ticket_expired =
+      IconData(0xf3ce, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ticket_star =
+      IconData(0xf3d0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData ticket =
+      IconData(0xf3d3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData timer_1 =
+      IconData(0xf3d5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData timer_pause =
+      IconData(0xf3d8, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData timer_start =
+      IconData(0xf3dc, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData timer =
+      IconData(0xf3e0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData toggle_off_circle =
+      IconData(0xf3e3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData toggle_off =
+      IconData(0xf3e5, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData toggle_on_circle =
+      IconData(0xf3e7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData toggle_on =
+      IconData(0xf3e9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData trade =
+      IconData(0xf3eb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData transaction_minus =
+      IconData(0xf3ef, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData translate =
+      IconData(0xf3f1, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData trash =
+      IconData(0xf3f7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData tree =
+      IconData(0xf3fb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData trend_down =
+      IconData(0xf3fe, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData trend_up =
+      IconData(0xf400, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData triangle =
+      IconData(0xf402, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData truck_remove =
+      IconData(0xf405, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData truck_tick =
+      IconData(0xf40b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData truck_time =
+      IconData(0xf411, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData trush_square =
+      IconData(0xf417, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData undo =
+      IconData(0xf41a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData unlimited =
+      IconData(0xf41c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData unlock =
+      IconData(0xf41f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData user_add =
+      IconData(0xf422, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData user_cirlce_add =
+      IconData(0xf425, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData user_edit =
+      IconData(0xf429, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData user_minus =
+      IconData(0xf42c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData user_octagon =
+      IconData(0xf42f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData user_remove =
+      IconData(0xf432, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData user_search =
+      IconData(0xf435, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData user_square =
+      IconData(0xf438, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData user_tag =
+      IconData(0xf43b, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData user_tick =
+      IconData(0xf43e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData user =
+      IconData(0xf441, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData verify =
+      IconData(0xf443, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video_add =
+      IconData(0xf445, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video_circle =
+      IconData(0xf448, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video_horizontal =
+      IconData(0xf44a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video_octagon =
+      IconData(0xf44c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video_play =
+      IconData(0xf44e, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video_remove =
+      IconData(0xf451, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video_slash =
+      IconData(0xf454, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video_square =
+      IconData(0xf45a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video_tick =
+      IconData(0xf45c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video_time =
+      IconData(0xf45f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video_vertical =
+      IconData(0xf462, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData video =
+      IconData(0xf464, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData voice_cricle =
+      IconData(0xf467, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData voice_square =
+      IconData(0xf46d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData volume_cross =
+      IconData(0xf473, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData volume_high =
+      IconData(0xf476, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData volume_low_1 =
+      IconData(0xf47a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData volume_low =
+      IconData(0xf47d, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData volume_mute =
+      IconData(0xf480, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData volume_slash =
+      IconData(0xf482, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData volume_up =
+      IconData(0xf487, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wallet_1 =
+      IconData(0xf48a, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wallet_2 =
+      IconData(0xf48f, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wallet_3 =
+      IconData(0xf492, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wallet_add_1 =
+      IconData(0xf496, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wallet_add =
+      IconData(0xf49c, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wallet_check =
+      IconData(0xf4a0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wallet_minus =
+      IconData(0xf4a4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wallet_money =
+      IconData(0xf4aa, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wallet_remove =
+      IconData(0xf4ac, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wallet_search =
+      IconData(0xf4b0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wallet =
+      IconData(0xf4b4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData warning_2 =
+      IconData(0xf4b7, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData watch_status =
+      IconData(0xf4ba, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData watch =
+      IconData(0xf4c0, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData weight_1 =
+      IconData(0xf4c4, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData weight =
+      IconData(0xf4c9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wifi_square =
+      IconData(0xf4cb, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wifi =
+      IconData(0xf4cf, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wind_2 =
+      IconData(0xf4d3, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData wind =
+      IconData(0xf4d6, fontFamily: _fontFamily, fontPackage: 'ficonsax');
+  static const IconData woman =
+      IconData(0xf4d9, fontFamily: _fontFamily, fontPackage: 'ficonsax');
 }
